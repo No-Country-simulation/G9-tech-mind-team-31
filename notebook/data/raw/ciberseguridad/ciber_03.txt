@@ -1,0 +1,2 @@
+Titulo: Autenticacion de dos factores
+Texto: La autenticacion de dos factores agrega una capa adicional de seguridad al requerir, ademas de la contrasena, un segundo elemento de verificacion como un codigo temporal enviado al telefono. Esto reduce significativamente el riesgo de acceso no autorizado aunque la contrasena sea comprometida.

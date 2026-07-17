@@ -1,0 +1,2 @@
+Titulo: Sentencias basicas de SQL
+Texto: SQL es el lenguaje utilizado para consultar y manipular bases de datos relacionales mediante sentencias como SELECT, INSERT, UPDATE y DELETE. Permite filtrar resultados con WHERE, ordenar con ORDER BY y combinar tablas mediante JOIN.

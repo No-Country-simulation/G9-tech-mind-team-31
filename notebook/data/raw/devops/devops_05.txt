@@ -1,0 +1,2 @@
+Titulo: Servicios de almacenamiento en la nube
+Texto: Los proveedores de nube ofrecen servicios de almacenamiento de objetos que permiten guardar archivos como modelos entrenados o documentos, accesibles mediante una API. Estos servicios suelen escalar automaticamente sin necesidad de gestionar servidores propios.

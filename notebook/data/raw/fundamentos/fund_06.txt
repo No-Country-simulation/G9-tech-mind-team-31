@@ -1,0 +1,2 @@
+Titulo: Funciones y modularidad
+Texto: Dividir un programa en funciones permite reutilizar codigo y organizar la logica en bloques con una responsabilidad clara. Esta practica facilita las pruebas, ya que cada funcion puede validarse de forma independiente del resto del sistema.

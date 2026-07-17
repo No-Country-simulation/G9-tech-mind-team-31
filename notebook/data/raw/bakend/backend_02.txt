@@ -1,0 +1,2 @@
+Titulo: Que es una API REST
+Texto: Una API REST es una interfaz que permite la comunicacion entre sistemas a traves de peticiones HTTP como GET, POST, PUT y DELETE. Sigue principios de arquitectura sin estado, donde cada peticion contiene toda la informacion necesaria para ser procesada, facilitando la escalabilidad y el desacople entre cliente y servidor.

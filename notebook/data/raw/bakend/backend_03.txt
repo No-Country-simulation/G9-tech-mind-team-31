@@ -1,0 +1,2 @@
+Titulo: Inyeccion de dependencias en Spring
+Texto: La inyeccion de dependencias es un patron de diseno donde los objetos reciben sus dependencias desde un contenedor externo en lugar de crearlas ellos mismos. Spring gestiona automaticamente estas dependencias mediante anotaciones, reduciendo el acoplamiento entre clases y facilitando las pruebas unitarias.

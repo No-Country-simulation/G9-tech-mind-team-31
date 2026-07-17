@@ -1,0 +1,2 @@
+Titulo: Gestion segura de contrasenas
+Texto: Almacenar contrasenas de forma segura implica nunca guardarlas en texto plano, sino aplicar funciones de hash con sal para dificultar que un atacante las recupere incluso si accede a la base de datos. Ademas, se recomienda exigir politicas de contrasenas robustas a los usuarios.

@@ -1,0 +1,2 @@
+Titulo: Vision por computadora
+Texto: La vision por computadora permite que un sistema interprete y analice contenido visual como imagenes o video, identificando objetos, rostros o patrones especificos. Se apoya fuertemente en redes neuronales convolucionales entrenadas con grandes conjuntos de imagenes etiquetadas.

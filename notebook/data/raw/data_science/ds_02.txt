@@ -1,0 +1,2 @@
+Titulo: Introduccion a Pandas
+Texto: Pandas es una libreria de Python que facilita la manipulacion y analisis de datos tabulares mediante estructuras como DataFrame. Permite filtrar, agrupar y transformar datos de forma eficiente antes de aplicar tecnicas de modelado.

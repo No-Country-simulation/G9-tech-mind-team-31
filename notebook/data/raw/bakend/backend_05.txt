@@ -1,0 +1,2 @@
+Titulo: Autenticacion con tokens JWT
+Texto: JSON Web Token es un estandar para transmitir informacion de forma segura entre dos partes como un objeto JSON firmado digitalmente. En un backend, se utiliza comunmente para autenticar usuarios sin necesidad de mantener sesiones en el servidor, ya que el propio token contiene los datos necesarios para validar al usuario.

@@ -1,0 +1,2 @@
+Titulo: Contenedores versus maquinas virtuales
+Texto: A diferencia de una maquina virtual, un contenedor comparte el nucleo del sistema operativo anfitrion, lo que lo hace mucho mas liviano y rapido de iniciar. Esto permite ejecutar muchos mas contenedores que maquinas virtuales en el mismo hardware.

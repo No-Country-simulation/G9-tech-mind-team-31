@@ -1,0 +1,2 @@
+Titulo: Accesibilidad web
+Texto: La accesibilidad web busca que las interfaces puedan ser utilizadas por personas con distintas capacidades, incluyendo el uso de lectores de pantalla. Practicas como etiquetas semanticas correctas y contraste de color adecuado son parte fundamental de este enfoque.

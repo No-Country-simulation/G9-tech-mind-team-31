@@ -1,0 +1,2 @@
+Titulo: Procesamiento de lenguaje natural
+Texto: El procesamiento de lenguaje natural es el area de la inteligencia artificial dedicada a que las maquinas comprendan y generen lenguaje humano. Incluye tareas como traduccion automatica, analisis de sentimientos y generacion de texto mediante modelos de lenguaje.

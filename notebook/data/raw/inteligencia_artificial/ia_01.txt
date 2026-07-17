@@ -1,0 +1,2 @@
+Titulo: Que es una red neuronal
+Texto: Una red neuronal es un modelo computacional inspirado en el funcionamiento del cerebro, compuesto por capas de nodos interconectados que ajustan sus parametros durante el entrenamiento. Es la base de las tecnicas de deep learning utilizadas en tareas complejas como reconocimiento de imagenes o procesamiento de lenguaje.

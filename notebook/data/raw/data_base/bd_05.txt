@@ -1,0 +1,2 @@
+Titulo: Bases de datos NoSQL
+Texto: Las bases de datos NoSQL almacenan informacion en formatos distintos al modelo de tablas relacionales, como documentos, pares clave-valor o grafos. Suelen utilizarse cuando se requiere alta escalabilidad o esquemas de datos flexibles.

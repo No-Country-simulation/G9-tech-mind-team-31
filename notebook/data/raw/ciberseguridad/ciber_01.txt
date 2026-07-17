@@ -1,0 +1,2 @@
+Titulo: Que es la inyeccion SQL
+Texto: La inyeccion SQL es una vulnerabilidad que ocurre cuando datos ingresados por un usuario se incluyen directamente en una consulta a la base de datos sin validacion adecuada. Un atacante puede aprovechar esto para leer, modificar o eliminar informacion sin autorizacion, por lo que se recomienda el uso de consultas parametrizadas.

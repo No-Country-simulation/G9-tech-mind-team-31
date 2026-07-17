@@ -1,0 +1,2 @@
+Titulo: Metricas de evaluacion en clasificacion
+Texto: Precision, recall y F1 son metricas que permiten evaluar el desempeno de un modelo de clasificacion mas alla del simple porcentaje de aciertos. Son especialmente utiles cuando las categorias no estan balanceadas entre si.

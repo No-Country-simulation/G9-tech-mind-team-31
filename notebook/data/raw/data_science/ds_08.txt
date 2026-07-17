@@ -1,0 +1,2 @@
+Titulo: Similitud coseno entre documentos
+Texto: La similitud coseno mide el angulo entre dos vectores para determinar que tan parecidos son, independientemente de su magnitud. Es ampliamente utilizada para comparar documentos representados como vectores TF-IDF y encontrar contenidos relacionados.

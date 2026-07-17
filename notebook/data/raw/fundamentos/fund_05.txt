@@ -1,0 +1,2 @@
+Titulo: Manejo de errores y excepciones
+Texto: El manejo de excepciones permite que un programa responda de forma controlada ante situaciones inesperadas, en lugar de detenerse abruptamente. Bloques como try y catch capturan errores especificos y permiten definir una accion alternativa.

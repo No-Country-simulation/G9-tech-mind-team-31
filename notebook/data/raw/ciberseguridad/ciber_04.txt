@@ -1,0 +1,2 @@
+Titulo: Ataques de phishing
+Texto: El phishing es una tecnica de ingenieria social donde un atacante se hace pasar por una entidad confiable para obtener informacion sensible como contrasenas o datos bancarios. Suele distribuirse mediante correos electronicos o sitios web falsos que imitan servicios legitimos.

@@ -1,0 +1,2 @@
+Titulo: Comunicacion entre microservicios
+Texto: Cuando una aplicacion se divide en microservicios, estos necesitan comunicarse entre si mediante llamadas HTTP o mensajeria asincrona. Clientes HTTP como WebClient permiten a un servicio backend consumir endpoints de otro servicio, formando una arquitectura distribuida y desacoplada.

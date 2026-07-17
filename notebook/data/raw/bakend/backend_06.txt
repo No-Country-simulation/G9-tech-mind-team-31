@@ -1,0 +1,2 @@
+Titulo: Arquitectura en capas
+Texto: La arquitectura en capas organiza el codigo backend separando responsabilidades en niveles como controlador, servicio y repositorio. Esta separacion facilita el mantenimiento del sistema, ya que cada capa tiene una funcion especifica y los cambios en una de ellas afectan minimamente a las demas.

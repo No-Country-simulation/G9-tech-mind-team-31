@@ -1,0 +1,2 @@
+Titulo: Que es TF-IDF
+Texto: TF-IDF es una tecnica que asigna un peso a cada palabra de un documento segun su frecuencia dentro del texto y su rareza en el resto del corpus. Las palabras muy comunes en todos los documentos reciben un peso bajo, mientras que las distintivas reciben un peso mas alto.

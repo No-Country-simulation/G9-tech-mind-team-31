@@ -1,0 +1,2 @@
+Titulo: Firewalls y control de trafico de red
+Texto: Un firewall filtra el trafico de red permitiendo o bloqueando conexiones segun reglas predefinidas, actuando como una barrera entre una red confiable y otras redes externas. Es una de las primeras lineas de defensa dentro de la seguridad perimetral de un sistema.

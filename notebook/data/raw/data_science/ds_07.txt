@@ -1,0 +1,2 @@
+Titulo: Limpieza de texto para modelos de lenguaje
+Texto: Antes de entrenar un modelo con texto, es comun normalizar el contenido convirtiendolo a minusculas, eliminando signos de puntuacion y quitando palabras muy frecuentes que aportan poco significado. Este preprocesamiento mejora la calidad de las representaciones numericas del texto.

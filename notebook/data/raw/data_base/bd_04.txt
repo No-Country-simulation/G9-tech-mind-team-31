@@ -1,0 +1,2 @@
+Titulo: Indices en bases de datos
+Texto: Un indice es una estructura que acelera la busqueda de registros dentro de una tabla, de forma similar al indice de un libro. Aunque mejora el rendimiento de las consultas, su uso excesivo puede ralentizar las operaciones de escritura.

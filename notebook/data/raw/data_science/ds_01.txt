@@ -1,0 +1,2 @@
+Titulo: Que es la ciencia de datos
+Texto: La ciencia de datos combina estadistica, programacion y conocimiento de dominio para extraer informacion util a partir de grandes volumenes de datos. Su proceso tipico incluye recoleccion, limpieza, analisis exploratorio, modelado y comunicacion de resultados.

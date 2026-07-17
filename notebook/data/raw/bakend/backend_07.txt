@@ -1,0 +1,2 @@
+Titulo: Validacion de datos de entrada
+Texto: Validar los datos que llegan a una API es fundamental para evitar errores y vulnerabilidades. Frameworks backend suelen ofrecer anotaciones para verificar automaticamente que los campos recibidos cumplan reglas como longitud minima, formato de correo o valores obligatorios antes de procesar la solicitud.

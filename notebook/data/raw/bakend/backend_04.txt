@@ -1,0 +1,2 @@
+Titulo: Manejo de excepciones en una API
+Texto: El manejo centralizado de excepciones permite capturar errores de forma consistente en toda la aplicacion backend. Mediante un controlador global de excepciones, es posible transformar errores internos en respuestas HTTP claras con codigos de estado apropiados, mejorando la experiencia de quien consume la API.

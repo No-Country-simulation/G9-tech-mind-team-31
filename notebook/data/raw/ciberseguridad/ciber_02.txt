@@ -1,0 +1,2 @@
+Titulo: Cifrado simetrico y asimetrico
+Texto: El cifrado simetrico utiliza una misma clave para cifrar y descifrar informacion, mientras que el cifrado asimetrico utiliza un par de claves, una publica y otra privada. Ambos enfoques se combinan frecuentemente en protocolos de comunicacion segura para balancear velocidad y seguridad.

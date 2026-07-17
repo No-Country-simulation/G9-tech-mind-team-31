@@ -1,0 +1,2 @@
+Titulo: Transacciones y propiedades ACID
+Texto: Una transaccion agrupa varias operaciones sobre la base de datos que deben ejecutarse como una sola unidad. Las propiedades ACID garantizan que estas operaciones sean atomicas, consistentes, aisladas y duraderas, incluso ante fallos del sistema.

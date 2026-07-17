@@ -1,0 +1,2 @@
+Titulo: Flexbox en CSS
+Texto: Flexbox es un modelo de diseno en CSS que facilita la alineacion y distribucion de elementos dentro de un contenedor, incluso cuando su tamano es desconocido o dinamico. Es ampliamente usado para crear layouts responsivos sin depender de posicionamiento absoluto.

@@ -1,0 +1,2 @@
+Titulo: Modelo relacional de bases de datos
+Texto: El modelo relacional organiza la informacion en tablas compuestas por filas y columnas, donde cada tabla representa una entidad y las relaciones entre ellas se definen mediante claves primarias y foraneas. Este modelo es la base de sistemas como Oracle y PostgreSQL.

@@ -1,0 +1,2 @@
+Titulo: Integracion continua
+Texto: La integracion continua es una practica donde los cambios de codigo se integran frecuentemente al repositorio principal, ejecutando pruebas automaticas en cada actualizacion. Esto permite detectar errores tempranamente antes de que lleguen a produccion.

@@ -1,0 +1,2 @@
+Titulo: Enrutamiento en aplicaciones de una sola pagina
+Texto: Las aplicaciones de una sola pagina utilizan un sistema de enrutamiento en el cliente para mostrar distintas vistas sin recargar el navegador. Esto mejora la fluidez de la navegacion, aunque requiere gestionar manualmente el historial del navegador.

@@ -1,0 +1,2 @@
+Titulo: Complejidad algoritmica
+Texto: La complejidad algoritmica mide como crece el tiempo o el espacio que requiere un algoritmo a medida que aumenta el tamano de la entrada. Se expresa comunmente usando notacion Big O, permitiendo comparar la eficiencia entre distintas soluciones.

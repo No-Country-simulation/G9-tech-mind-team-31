@@ -1,0 +1,2 @@
+Titulo: Componentes reutilizables
+Texto: Un componente es una pieza independiente de interfaz que encapsula su propia logica y presentacion, pudiendo reutilizarse en distintas partes de una aplicacion. Este enfoque modular reduce la duplicacion de codigo y facilita el mantenimiento.

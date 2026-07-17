@@ -1,0 +1,2 @@
+Titulo: Normalizacion de bases de datos
+Texto: La normalizacion es un proceso que organiza los datos para reducir la redundancia y evitar inconsistencias, dividiendo la informacion en varias tablas relacionadas. Existen distintas formas normales que establecen reglas progresivas de organizacion.

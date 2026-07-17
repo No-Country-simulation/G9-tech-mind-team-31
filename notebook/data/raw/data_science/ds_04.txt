@@ -1,0 +1,2 @@
+Titulo: Regresion logistica
+Texto: La regresion logistica es un algoritmo de clasificacion que estima la probabilidad de que una observacion pertenezca a una categoria determinada. A pesar de su nombre, se utiliza para problemas de clasificacion y no de regresion numerica.

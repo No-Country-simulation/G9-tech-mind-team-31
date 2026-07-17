@@ -1,0 +1,2 @@
+Titulo: Diseno responsivo
+Texto: El diseno responsivo busca que una pagina web se adapte correctamente a distintos tamanos de pantalla, desde moviles hasta monitores grandes. Se logra combinando unidades relativas, media queries y estructuras de layout flexibles.

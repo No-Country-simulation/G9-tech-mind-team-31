@@ -1,0 +1,2 @@
+Titulo: Manejo de estado en aplicaciones web
+Texto: El estado representa los datos que cambian a lo largo del tiempo dentro de una aplicacion frontend, como el contenido de un formulario o la respuesta de una API. Librerias modernas ofrecen hooks especificos para declarar y actualizar este estado de forma predecible.

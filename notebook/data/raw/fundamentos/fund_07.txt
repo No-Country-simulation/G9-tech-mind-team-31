@@ -1,0 +1,2 @@
+Titulo: Tipos de datos y variables
+Texto: Los tipos de datos definen que clase de valores puede almacenar una variable y que operaciones son validas sobre ella, como numeros enteros, cadenas de texto o valores booleanos. Un tipado adecuado ayuda a prevenir errores comunes en tiempo de ejecucion.

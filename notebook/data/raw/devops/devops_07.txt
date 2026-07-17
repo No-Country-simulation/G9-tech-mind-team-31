@@ -1,0 +1,2 @@
+Titulo: Monitoreo de aplicaciones en produccion
+Texto: El monitoreo permite observar el estado y rendimiento de una aplicacion una vez desplegada, detectando errores, tiempos de respuesta elevados o caidas del servicio. Es una practica esencial para mantener la disponibilidad de un sistema.

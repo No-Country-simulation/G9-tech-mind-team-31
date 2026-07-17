@@ -1,0 +1,2 @@
+Titulo: Division de datos en entrenamiento y prueba
+Texto: Separar los datos en un conjunto de entrenamiento y otro de prueba permite evaluar que tan bien generaliza un modelo a datos que no ha visto antes. Esta practica evita conclusiones erroneas basadas unicamente en el rendimiento sobre los datos usados para entrenar.

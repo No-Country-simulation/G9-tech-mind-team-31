@@ -1,0 +1,2 @@
+Titulo: Procedimientos almacenados
+Texto: Un procedimiento almacenado es un bloque de codigo SQL guardado dentro de la base de datos que puede ejecutarse bajo demanda. Permite encapsular logica repetitiva directamente en el motor de base de datos, reduciendo la cantidad de consultas enviadas desde la aplicacion.

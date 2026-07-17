@@ -1,0 +1,2 @@
+Titulo: Despliegue continuo
+Texto: El despliegue continuo automatiza el proceso de llevar una aplicacion desde el codigo fuente hasta un entorno de produccion, reduciendo la intervencion manual. Suele combinarse con integracion continua para formar un pipeline completo.

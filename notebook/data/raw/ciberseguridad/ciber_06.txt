@@ -1,0 +1,2 @@
+Titulo: Vulnerabilidades OWASP mas comunes
+Texto: OWASP mantiene un listado periodico de los riesgos de seguridad mas criticos en aplicaciones web, incluyendo fallos de control de acceso, configuraciones inseguras y componentes con vulnerabilidades conocidas. Este listado sirve como referencia para priorizar esfuerzos de seguridad en el desarrollo de software.

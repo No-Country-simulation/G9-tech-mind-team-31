@@ -1,0 +1,2 @@
+Titulo: Sesgo en modelos de inteligencia artificial
+Texto: Un modelo de inteligencia artificial puede reproducir o amplificar sesgos presentes en los datos con los que fue entrenado, generando resultados injustos hacia ciertos grupos. Detectar y mitigar este sesgo es una parte importante del desarrollo responsable de sistemas de IA.

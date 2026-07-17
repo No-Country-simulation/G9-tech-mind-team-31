@@ -1,0 +1,2 @@
+Titulo: Estructuras de datos basicas
+Texto: Las estructuras de datos como listas, pilas, colas y arboles definen distintas formas de organizar y acceder a la informacion en memoria. Elegir la estructura adecuada segun el problema impacta directamente en el rendimiento del programa.

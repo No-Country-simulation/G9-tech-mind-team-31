@@ -1,0 +1,2 @@
+Titulo: Recursividad
+Texto: La recursividad es una tecnica donde una funcion se llama a si misma para resolver un problema dividiendolo en subproblemas mas pequenos. Requiere definir claramente un caso base para evitar que la funcion se ejecute indefinidamente.

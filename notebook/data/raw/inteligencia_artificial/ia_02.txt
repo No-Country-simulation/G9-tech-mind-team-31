@@ -1,0 +1,2 @@
+Titulo: Diferencia entre inteligencia artificial y machine learning
+Texto: La inteligencia artificial es un campo amplio que busca que las maquinas realicen tareas que normalmente requieren inteligencia humana, mientras que el machine learning es un subconjunto de la IA centrado en que los sistemas aprendan patrones a partir de datos sin ser programados explicitamente para cada tarea.

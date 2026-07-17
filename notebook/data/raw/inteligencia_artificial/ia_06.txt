@@ -1,0 +1,2 @@
+Titulo: Entrenamiento por refuerzo
+Texto: El aprendizaje por refuerzo es un enfoque donde un agente aprende a tomar decisiones interactuando con un entorno, recibiendo recompensas o penalizaciones segun sus acciones. Con el tiempo, el agente ajusta su comportamiento para maximizar la recompensa acumulada.

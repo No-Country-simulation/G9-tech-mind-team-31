@@ -1,0 +1,2 @@
+Titulo: Modelos de lenguaje grandes
+Texto: Los modelos de lenguaje grandes son sistemas entrenados con enormes cantidades de texto que aprenden a predecir la siguiente palabra en una secuencia, lo que les permite generar respuestas coherentes ante una amplia variedad de instrucciones. Su entrenamiento requiere una capacidad computacional significativamente mayor que los modelos clasicos de machine learning.

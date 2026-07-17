@@ -1,0 +1,2 @@
+Titulo: Variables de entorno y configuracion
+Texto: Las variables de entorno permiten separar la configuracion de una aplicacion de su codigo fuente, facilitando cambiar valores como credenciales o URLs segun el entorno donde se ejecute, sin modificar el codigo directamente.

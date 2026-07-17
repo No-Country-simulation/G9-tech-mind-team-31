@@ -1,0 +1,2 @@
+Titulo: Infraestructura como codigo
+Texto: La infraestructura como codigo permite definir servidores, redes y otros recursos de infraestructura mediante archivos de configuracion versionables, en lugar de configurarlos manualmente. Esto facilita reproducir entornos de forma consistente.

@@ -1,0 +1,2 @@
+Titulo: Consumo de APIs desde el frontend
+Texto: Las aplicaciones frontend obtienen datos dinamicos realizando peticiones HTTP a una API backend, generalmente mediante fetch o librerias como axios. La respuesta, normalmente en formato JSON, se utiliza para actualizar la interfaz que ve el usuario.

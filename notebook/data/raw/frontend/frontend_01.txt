@@ -1,0 +1,2 @@
+Titulo: Que es React
+Texto: React es una libreria de JavaScript para construir interfaces de usuario basadas en componentes reutilizables. Permite que la interfaz se actualice automaticamente cuando cambian los datos, gracias a un modelo de renderizado eficiente conocido como DOM virtual.

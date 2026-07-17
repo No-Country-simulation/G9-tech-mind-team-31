@@ -1,0 +1,2 @@
+Titulo: Que es Docker
+Texto: Docker es una plataforma que permite empaquetar una aplicacion junto con todas sus dependencias en un contenedor, garantizando que funcione igual en distintos entornos. Esto elimina el clasico problema de que algo funcione en una maquina y no en otra.

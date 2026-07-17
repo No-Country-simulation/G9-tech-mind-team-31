@@ -1,0 +1,2 @@
+Titulo: Introduccion a Spring Boot
+Texto: Spring Boot es un framework de Java que simplifica la creacion de aplicaciones backend al eliminar gran parte de la configuracion manual. Permite construir APIs REST de forma rapida mediante anotaciones como Controller, Service y Repository, integrando un servidor embebido que evita depender de despliegues externos complejos.

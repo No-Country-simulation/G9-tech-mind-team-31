@@ -1,0 +1,2 @@
+Titulo: Que es la programacion orientada a objetos
+Texto: La programacion orientada a objetos organiza el codigo en torno a objetos que combinan datos y comportamiento. Sus pilares fundamentales son encapsulamiento, herencia, polimorfismo y abstraccion, y es la base de lenguajes como Java.

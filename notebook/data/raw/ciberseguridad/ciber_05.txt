@@ -1,0 +1,2 @@
+Titulo: Principio de menor privilegio
+Texto: El principio de menor privilegio establece que cada usuario o proceso debe tener unicamente los permisos minimos necesarios para cumplir su funcion. Aplicar este principio reduce el impacto potencial de una cuenta comprometida dentro de un sistema.

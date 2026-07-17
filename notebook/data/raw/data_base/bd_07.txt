@@ -1,0 +1,2 @@
+Titulo: Relaciones uno a muchos y muchos a muchos
+Texto: En un modelo relacional, dos tablas pueden relacionarse de distintas formas segun cuantos registros de una se asocian con registros de la otra. Las relaciones muchos a muchos generalmente requieren una tabla intermedia para representarse correctamente.

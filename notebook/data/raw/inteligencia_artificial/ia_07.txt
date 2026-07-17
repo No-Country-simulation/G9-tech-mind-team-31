@@ -1,0 +1,2 @@
+Titulo: Redes neuronales convolucionales
+Texto: Las redes neuronales convolucionales son un tipo de arquitectura especializada en procesar datos con estructura de cuadricula, como imagenes, mediante filtros que detectan patrones locales como bordes o texturas. Son ampliamente utilizadas en tareas de clasificacion y deteccion de objetos.

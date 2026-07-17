@@ -1,0 +1,2 @@
+Titulo: Control de versiones con Git
+Texto: Git es un sistema de control de versiones que permite registrar el historial de cambios de un proyecto y trabajar de forma colaborativa. Conceptos como ramas, commits y fusiones son fundamentales para coordinar el trabajo en equipo.
