@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.linear_model import LogisticRegression
+from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import classification_report, confusion_matrix
 from text_cleaner import TextCleaner
 
@@ -11,7 +11,6 @@ def main():
     print("--- 1. Cargando mi Dataset ---")
     dataset_path = os.path.join("data", "dataset.csv")
     if not os.path.exists(dataset_path):
-        # Si ejecuto el script desde otra ubicación, busco la ruta relativa del archivo
         dataset_path = os.path.join(os.path.dirname(__file__), "data", "dataset.csv")
         
     df = pd.read_csv(dataset_path)
@@ -27,7 +26,7 @@ def main():
     cleaner = TextCleaner()
     df['cleaned_text'] = df['text'].apply(cleaner.clean)
     
-    # Filtro los registros que queden vacíos después de limpiarlos (p.ej. si solo contenían URLs o stop words)
+    # Filtro los registros que queden vacíos después de limpiarlos
     df = df[df['cleaned_text'].str.strip() != '']
     print(f"Registros listos para entrenar tras remoción de textos vacíos: {df.shape[0]}")
     
@@ -48,18 +47,25 @@ def main():
     print(f"Tamaño de mi set de entrenamiento: {len(X_train)}")
     print(f"Tamaño de mi set de prueba: {len(X_test)}")
     
-    print("\n--- 4. Vectorización TF-IDF ---")
-    # Configuro TF-IDF para ponderar los términos clave
-    vectorizer = TfidfVectorizer(sublinear_tf=True, min_df=1, norm='l2', encoding='utf-8', ngram_range=(1, 1))
+    print("\n--- 4. Vectorización TF-IDF con N-gramas ---")
+    # Configuro TF-IDF para incluir unigramas y bigramas (palabras compuestas) y limito el vocabulario a 250 palabras clave
+    vectorizer = TfidfVectorizer(
+        sublinear_tf=True, 
+        min_df=1, 
+        norm='l2', 
+        encoding='utf-8', 
+        ngram_range=(1, 2),
+        max_features=250
+    )
     
     X_train_tfidf = vectorizer.fit_transform(X_train)
     X_test_tfidf = vectorizer.transform(X_test)
     
-    print(f"Número de palabras en mi vocabulario: {X_train_tfidf.shape[1]}")
+    print(f"Número de características de mi vocabulario (unigramas + bigramas): {X_train_tfidf.shape[1]}")
     
-    print("\n--- 5. Entrenando mi Modelo (Regresión Logística) ---")
-    # Ajusto mi clasificador con pesos balanceados
-    model = LogisticRegression(C=10.0, class_weight='balanced', random_state=42)
+    print("\n--- 5. Entrenando mi Modelo (Naive Bayes Multinomial) ---")
+    # Uso Naive Bayes Multinomial con suavizado para mejorar la fuerza y nitidez de las probabilidades
+    model = MultinomialNB(alpha=0.1)
     model.fit(X_train_tfidf, y_train)
     print("¡Modelo entrenado!")
     
