@@ -151,23 +151,13 @@
             font-size: 12px;
             color: #f43f5e;
         }
-
-        .badge-done {
-            background: rgba(16, 185, 129, 0.2);
-            color: var(--success-color);
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-size: 11px;
-            font-weight: bold;
-            margin-left: 8px;
-        }
     </style>
 </head>
 <body>
 
 <div class="container">
     <h1>TechMind - Checklist de Validación y QA</h1>
-    <p class="desc">Haz clic en las tareas para marcar su progreso. Las tareas de Ciencia de Datos y Documentación ya han sido validadas y marcadas como completadas.</p>
+    <p class="desc">Haz clic en las tareas para marcar su progreso. Esta lista contiene el 100% de los requerimientos y entregables oficiales.</p>
 
     <div class="progress-container">
         <div class="progress-text">
@@ -179,155 +169,148 @@
         </div>
     </div>
 
-    <!-- Grupo 1 -->
-    <h2>1. Entregables de Ciencia de Datos (Data Science)</h2>
+    <!-- Grupo 1: Ciencia de Datos -->
+    <h2>1. Entregables de Ciencia de Datos (Jupyter/Colab)</h2>
     <div class="checklist-group">
         <label class="checklist-item">
-            <input type="checkbox" class="task" checked disabled>
+            <input type="checkbox" class="task">
             <div class="checklist-item-content">
-                <span class="title">DS-1: Dataset técnico propio <span class="badge-done">LISTO</span></span>
-                <span class="details">Base de contenidos construida en <code>dataset.csv</code> con 75 registros balanceados y texto con ruido real de internet.</span>
+                <span class="title">DS-1: Exploración y limpieza de datos (EDA)</span>
+                <span class="details">Análisis y remoción de valores nulos (NaN) y duplicados en el conjunto de datos técnico.</span>
             </div>
         </label>
         <label class="checklist-item">
-            <input type="checkbox" class="task" checked disabled>
+            <input type="checkbox" class="task">
             <div class="checklist-item-content">
-                <span class="title">DS-2: Exploración y limpieza (EDA) <span class="badge-done">LISTO</span></span>
-                <span class="details">Manejo seguro de valores nulos (NaN) y eliminación de registros vacíos.</span>
+                <span class="title">DS-2: Procesamiento avanzado de textos técnicos</span>
+                <span class="details">Remoción de etiquetas HTML, links web, correos electrónicos, caracteres especiales y stop words en español e inglés.</span>
             </div>
         </label>
         <label class="checklist-item">
-            <input type="checkbox" class="task" checked disabled>
+            <input type="checkbox" class="task">
             <div class="checklist-item-content">
-                <span class="title">DS-3: Procesamiento de textos (NLP) <span class="badge-done">LISTO</span></span>
-                <span class="details">Remoción de etiquetas HTML, enlaces web, emails, caracteres especiales y stop words en español e inglés.</span>
+                <span class="title">DS-3: Transformación de datos (TF-IDF)</span>
+                <span class="details">Conversión a formato numérico con TF-IDF configurado con unigramas y bigramas (ngram_range 1, 2) y max_features=250.</span>
             </div>
         </label>
         <label class="checklist-item">
-            <input type="checkbox" class="task" checked disabled>
+            <input type="checkbox" class="task">
             <div class="checklist-item-content">
-                <span class="title">DS-4: Vectorización TF-IDF <span class="badge-done">LISTO</span></span>
-                <span class="details">Uso de unigramas y bigramas optimizados y limitados a las 250 mejores palabras clave en <code>train.py</code>.</span>
+                <span class="title">DS-4: Entrenamiento y validación de modelos</span>
+                <span class="details">Uso de un algoritmo adecuado (Naive Bayes Multinomial / Regresión Logística) sobre una base de datos propia.</span>
             </div>
         </label>
         <label class="checklist-item">
-            <input type="checkbox" class="task" checked disabled>
+            <input type="checkbox" class="task">
             <div class="checklist-item-content">
-                <span class="title">DS-5: Modelado y entrenamiento <span class="badge-done">LISTO</span></span>
-                <span class="details">Clasificador Naive Bayes Multinomial implementado para maximizar la nitidez de las probabilidades.</span>
+                <span class="title">DS-5: Métricas de rendimiento detalladas</span>
+                <span class="details">Obtención de la matriz de confusión y el reporte de clasificación (precisión, recall, F1-Score).</span>
             </div>
         </label>
         <label class="checklist-item">
-            <input type="checkbox" class="task" checked disabled>
+            <input type="checkbox" class="task">
             <div class="checklist-item-content">
-                <span class="title">DS-6: Métricas y evaluación <span class="badge-done">LISTO</span></span>
-                <span class="details">Generación automática de la matriz de confusión e informes detallados en consola.</span>
+                <span class="title">DS-6: Serialización y exportación del modelo</span>
+                <span class="details">Guardado del modelo entrenado y del vectorizador en formato `.joblib` en la ruta correspondiente para producción.</span>
             </div>
         </label>
         <label class="checklist-item">
-            <input type="checkbox" class="task" checked disabled>
+            <input type="checkbox" class="task">
             <div class="checklist-item-content">
-                <span class="title">DS-7: Serialización del modelo <span class="badge-done">LISTO</span></span>
-                <span class="details">Exportación automatizada de <code>model.joblib</code> y <code>vectorizer.joblib</code> en la carpeta de modelos.</span>
-            </div>
-        </label>
-        <label class="checklist-item">
-            <input type="checkbox" class="task" checked disabled>
-            <div class="checklist-item-content">
-                <span class="title">DS-8: Notebook del equipo <span class="badge-done">LISTO</span></span>
-                <span class="details">Generación del archivo <code>classification_pipeline.ipynb</code> con las celdas y salidas pre-ejecutadas.</span>
+                <span class="title">DS-7: Notebook del equipo en GitHub</span>
+                <span class="details">Repositorio con el archivo <code>classification_pipeline.ipynb</code> con las celdas explicadas en español y salidas pre-cargadas.</span>
             </div>
         </label>
     </div>
 
-    <!-- Grupo 2 -->
-    <h2>2. Entregables de Aplicación Back-End (API REST)</h2>
+    <!-- Grupo 2: Back-End -->
+    <h2>2. Aplicación Back-End (API REST FastAPI)</h2>
     <div class="checklist-group">
         <label class="checklist-item">
             <input type="checkbox" class="task">
             <div class="checklist-item-content">
-                <span class="title">BE-1: Endpoint de inferencia operativo</span>
-                <span class="details">Exponer un endpoint <code>POST /predecir</code> o <code>POST /contenido</code> capaz de recibir JSON.</span>
+                <span class="title">BE-1: Endpoint de procesamiento de contenido</span>
+                <span class="details">Exponer el endpoint <code>POST /predecir</code> o <code>POST /contenido</code> que reciba formato JSON y devuelva los resultados del modelo.</span>
             </div>
         </label>
         <label class="checklist-item">
             <input type="checkbox" class="task">
             <div class="checklist-item-content">
-                <span class="title">BE-2: Integración de modelos serializados</span>
-                <span class="details">Carga dinámica y predicción en caliente de los binarios cargados usando <code>joblib.load()</code>.</span>
+                <span class="title">BE-2: Consumo e integración del modelo cargado</span>
+                <span class="details">Carga y llamada en caliente del modelo y vectorizador deserializados usando <code>joblib.load()</code>.</span>
             </div>
         </label>
         <label class="checklist-item">
             <input type="checkbox" class="task">
             <div class="checklist-item-content">
-                <span class="title">BE-3: Estructura de salida JSON correcta</span>
-                <span class="details">El servicio debe retornar: <code>categoria</code>, <code>probabilidad</code> e <code>informaciones_adicionales</code>.</span>
+                <span class="title">BE-3: Estructura de salida JSON</span>
+                <span class="details">Retornar: <code>categoria</code> (Backend, Frontend, etc.), <code>probabilidad</code> (ej. 0.89) e <code>informaciones_adicionales</code> (keywords).</span>
             </div>
         </label>
         <label class="checklist-item">
             <input type="checkbox" class="task">
             <div class="checklist-item-content">
-                <span class="title">BE-4: Validación de campos obligatorios</span>
-                <span class="details">Lanzar error HTTP si los campos <code>titulo</code> o <code>texto</code> no son suministrados o están vacíos.</span>
+                <span class="title">BE-4: Validación de datos de entrada obligatorios</span>
+                <span class="details">Comprobar que el JSON contenga <code>titulo</code> y <code>texto</code> y que no estén vacíos.</span>
             </div>
         </label>
         <label class="checklist-item">
             <input type="checkbox" class="task">
             <div class="checklist-item-content">
                 <span class="title">BE-5: Validación de longitud de caracteres</span>
-                <span class="details">Lanzar error HTTP 422 si el campo <code>texto</code> posee menos de 15 caracteres o más de 5000.</span>
+                <span class="details">Validar que el campo <code>texto</code> posea una longitud de caracteres de entre 15 y 5000.</span>
             </div>
         </label>
         <label class="checklist-item">
             <input type="checkbox" class="task">
             <div class="checklist-item-content">
-                <span class="title">BE-6: Manejo seguro de errores</span>
-                <span class="details">Manejo seguro ante payloads rotos o errores inesperados del servidor.</span>
+                <span class="title">BE-6: Manejo estructurado de errores</span>
+                <span class="details">Retorno de código HTTP 422 para fallas de validación y gestión segura de excepciones de ejecución.</span>
             </div>
         </label>
     </div>
 
-    <!-- Grupo 3 -->
-    <h2>3. Entregables de Integración OCI</h2>
+    <!-- Grupo 3: OCI -->
+    <h2>3. Integración con OCI (Obligatorio)</h2>
     <div class="checklist-group">
         <label class="checklist-item">
             <input type="checkbox" class="task">
             <div class="checklist-item-content">
-                <span class="title">OCI-1: Integración de un servicio OCI</span>
-                <span class="details">Validar uso de al menos un servicio OCI (Object Storage, Compute, Functions o Autonomous DB).</span>
+                <span class="title">OCI-1: Integración de al menos un servicio OCI</span>
+                <span class="details">Uso obligatorio de al menos un servicio de OCI (Object Storage, Compute, Functions o persistencia de base de datos).</span>
             </div>
         </label>
     </div>
 
-    <!-- Grupo 4 -->
+    <!-- Grupo 4: Documentación -->
     <h2>4. Documentación y Demostración</h2>
     <div class="checklist-group">
         <label class="checklist-item">
-            <input type="checkbox" class="task" checked disabled>
+            <input type="checkbox" class="task">
             <div class="checklist-item-content">
-                <span class="title">DOC-1: Guía de ejecución en README <span class="badge-done">LISTO</span></span>
-                <span class="details">Instrucciones de clonado, instalación de dependencias y ejecución descritas en <code>README.md</code>.</span>
+                <span class="title">DOC-1: Guía de ejecución detallada</span>
+                <span class="details">README.md con los pasos de instalación local: clonado, creación de entorno virtual, activación e instalación.</span>
             </div>
         </label>
         <label class="checklist-item">
-            <input type="checkbox" class="task" checked disabled>
+            <input type="checkbox" class="task">
             <div class="checklist-item-content">
-                <span class="title">DOC-2: Ejemplos mínimos de uso <span class="badge-done">LISTO</span></span>
-                <span class="details">Inclusión de 3 ejemplos reales tipo <code>curl</code> en la guía de documentación del proyecto.</span>
+                <span class="title">DOC-2: Ejemplos prácticos de uso (Mínimo 3)</span>
+                <span class="details">Documentación con 3 comandos <code>curl</code> y sus respuestas detallados (Backend, Frontend y Payload Corto).</span>
             </div>
         </label>
         <label class="checklist-item">
-            <input type="checkbox" class="task" checked disabled>
+            <input type="checkbox" class="task">
             <div class="checklist-item-content">
-                <span class="title">DOC-3: Listado de dependencias <span class="badge-done">LISTO</span></span>
-                <span class="details">Archivo <code>requirements.txt</code> en la raíz declarando todas las librerías necesarias.</span>
+                <span class="title">DOC-3: Listado de dependencias</span>
+                <span class="details">Archivo <code>requirements.txt</code> en la raíz que declare las librerías necesarias para ejecutar el proyecto.</span>
             </div>
         </label>
         <label class="checklist-item">
             <input type="checkbox" class="task">
             <div class="checklist-item-content">
                 <span class="title">DEM-1: Video de demostración funcional</span>
-                <span class="details">Grabación de video de corta duración subido a YouTube explicando el funcionamiento global del MVP.</span>
+                <span class="details">Enlace de YouTube al video explicativo que demuestre el MVP en funcionamiento y la explicación de los resultados.</span>
             </div>
         </label>
     </div>
@@ -358,21 +341,17 @@
     }
 
     tasks.forEach(task => {
-        if (!task.disabled) {
-            task.addEventListener('change', updateProgress);
-            
-            // Permitir hacer clic en todo el bloque para marcar
-            const item = task.closest('.checklist-item');
-            item.addEventListener('click', (e) => {
-                if (e.target !== task) {
-                    task.checked = !task.checked;
-                    updateProgress();
-                }
-            });
-        }
+        task.addEventListener('change', updateProgress);
+        
+        const item = task.closest('.checklist-item');
+        item.addEventListener('click', (e) => {
+            if (e.target !== task) {
+                task.checked = !task.checked;
+                updateProgress();
+            }
+        });
     });
 
-    // Ejecutar progreso inicial
     updateProgress();
 </script>
 
