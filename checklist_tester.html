@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMind - Checklist de Validación y QA</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --accent-color: #38bdf8;
+            --text-color: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border-color: #334155;
+            --success-color: #10b981;
+        }
+
+        body {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-top: 0;
+            color: var(--text-color);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 10px;
+        }
+
+        p.desc {
+            color: var(--text-muted);
+            font-size: 14px;
+            margin-bottom: 25px;
+        }
+
+        .progress-container {
+            background-color: var(--bg-color);
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 30px;
+            border: 1px solid var(--border-color);
+        }
+
+        .progress-bar-bg {
+            background: #475569;
+            border-radius: 4px;
+            height: 10px;
+            width: 100%;
+            overflow: hidden;
+            margin-top: 8px;
+        }
+
+        .progress-bar-fill {
+            background: var(--success-color);
+            height: 100%;
+            width: 0%;
+            transition: width 0.4s ease;
+        }
+
+        .progress-text {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: var(--accent-color);
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        .checklist-group {
+            margin-bottom: 20px;
+        }
+
+        .checklist-item {
+            display: flex;
+            align-items: flex-start;
+            padding: 10px;
+            border-radius: 6px;
+            margin-bottom: 8px;
+            background: rgba(15, 23, 42, 0.3);
+            border: 1px solid transparent;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .checklist-item:hover {
+            border-color: var(--border-color);
+            background: rgba(15, 23, 42, 0.5);
+        }
+
+        .checklist-item input[type="checkbox"] {
+            margin-top: 3px;
+            margin-right: 12px;
+            width: 18px;
+            height: 18px;
+            accent-color: var(--success-color);
+            cursor: pointer;
+        }
+
+        .checklist-item-content {
+            flex: 1;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 14px;
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        .details {
+            font-size: 13px;
+            color: var(--text-muted);
+            display: block;
+        }
+
+        .checklist-item.checked {
+            opacity: 0.7;
+        }
+
+        .checklist-item.checked .title {
+            text-decoration: line-through;
+            color: var(--text-muted);
+        }
+
+        code {
+            background: #0f172a;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: Consolas, monospace;
+            font-size: 12px;
+            color: #f43f5e;
+        }
+
+        .badge-done {
+            background: rgba(16, 185, 129, 0.2);
+            color: var(--success-color);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: bold;
+            margin-left: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>TechMind - Checklist de Validación y QA</h1>
+    <p class="desc">Haz clic en las tareas para marcar su progreso. Las tareas de Ciencia de Datos y Documentación ya han sido validadas y marcadas como completadas.</p>
+
+    <div class="progress-container">
+        <div class="progress-text">
+            <span>Progreso del MVP</span>
+            <span id="progress-percent">0%</span>
+        </div>
+        <div class="progress-bar-bg">
+            <div class="progress-bar-fill" id="progress-bar"></div>
+        </div>
+    </div>
+
+    <!-- Grupo 1 -->
+    <h2>1. Entregables de Ciencia de Datos (Data Science)</h2>
+    <div class="checklist-group">
+        <label class="checklist-item">
+            <input type="checkbox" class="task" checked disabled>
+            <div class="checklist-item-content">
+                <span class="title">DS-1: Dataset técnico propio <span class="badge-done">LISTO</span></span>
+                <span class="details">Base de contenidos construida en <code>dataset.csv</code> con 75 registros balanceados y texto con ruido real de internet.</span>
+            </div>
+        </label>
+        <label class="checklist-item">
+            <input type="checkbox" class="task" checked disabled>
+            <div class="checklist-item-content">
+                <span class="title">DS-2: Exploración y limpieza (EDA) <span class="badge-done">LISTO</span></span>
+                <span class="details">Manejo seguro de valores nulos (NaN) y eliminación de registros vacíos.</span>
+            </div>
+        </label>
+        <label class="checklist-item">
+            <input type="checkbox" class="task" checked disabled>
+            <div class="checklist-item-content">
+                <span class="title">DS-3: Procesamiento de textos (NLP) <span class="badge-done">LISTO</span></span>
+                <span class="details">Remoción de etiquetas HTML, enlaces web, emails, caracteres especiales y stop words en español e inglés.</span>
+            </div>
+        </label>
+        <label class="checklist-item">
+            <input type="checkbox" class="task" checked disabled>
+            <div class="checklist-item-content">
+                <span class="title">DS-4: Vectorización TF-IDF <span class="badge-done">LISTO</span></span>
+                <span class="details">Uso de unigramas y bigramas optimizados y limitados a las 250 mejores palabras clave en <code>train.py</code>.</span>
+            </div>
+        </label>
+        <label class="checklist-item">
+            <input type="checkbox" class="task" checked disabled>
+            <div class="checklist-item-content">
+                <span class="title">DS-5: Modelado y entrenamiento <span class="badge-done">LISTO</span></span>
+                <span class="details">Clasificador Naive Bayes Multinomial implementado para maximizar la nitidez de las probabilidades.</span>
+            </div>
+        </label>
+        <label class="checklist-item">
+            <input type="checkbox" class="task" checked disabled>
+            <div class="checklist-item-content">
+                <span class="title">DS-6: Métricas y evaluación <span class="badge-done">LISTO</span></span>
+                <span class="details">Generación automática de la matriz de confusión e informes detallados en consola.</span>
+            </div>
+        </label>
+        <label class="checklist-item">
+            <input type="checkbox" class="task" checked disabled>
+            <div class="checklist-item-content">
+                <span class="title">DS-7: Serialización del modelo <span class="badge-done">LISTO</span></span>
+                <span class="details">Exportación automatizada de <code>model.joblib</code> y <code>vectorizer.joblib</code> en la carpeta de modelos.</span>
+            </div>
+        </label>
+        <label class="checklist-item">
+            <input type="checkbox" class="task" checked disabled>
+            <div class="checklist-item-content">
+                <span class="title">DS-8: Notebook del equipo <span class="badge-done">LISTO</span></span>
+                <span class="details">Generación del archivo <code>classification_pipeline.ipynb</code> con las celdas y salidas pre-ejecutadas.</span>
+            </div>
+        </label>
+    </div>
+
+    <!-- Grupo 2 -->
+    <h2>2. Entregables de Aplicación Back-End (API REST)</h2>
+    <div class="checklist-group">
+        <label class="checklist-item">
+            <input type="checkbox" class="task">
+            <div class="checklist-item-content">
+                <span class="title">BE-1: Endpoint de inferencia operativo</span>
+                <span class="details">Exponer un endpoint <code>POST /predecir</code> o <code>POST /contenido</code> capaz de recibir JSON.</span>
+            </div>
+        </label>
+        <label class="checklist-item">
+            <input type="checkbox" class="task">
+            <div class="checklist-item-content">
+                <span class="title">BE-2: Integración de modelos serializados</span>
+                <span class="details">Carga dinámica y predicción en caliente de los binarios cargados usando <code>joblib.load()</code>.</span>
+            </div>
+        </label>
+        <label class="checklist-item">
+            <input type="checkbox" class="task">
+            <div class="checklist-item-content">
+                <span class="title">BE-3: Estructura de salida JSON correcta</span>
+                <span class="details">El servicio debe retornar: <code>categoria</code>, <code>probabilidad</code> e <code>informaciones_adicionales</code>.</span>
+            </div>
+        </label>
+        <label class="checklist-item">
+            <input type="checkbox" class="task">
+            <div class="checklist-item-content">
+                <span class="title">BE-4: Validación de campos obligatorios</span>
+                <span class="details">Lanzar error HTTP si los campos <code>titulo</code> o <code>texto</code> no son suministrados o están vacíos.</span>
+            </div>
+        </label>
+        <label class="checklist-item">
+            <input type="checkbox" class="task">
+            <div class="checklist-item-content">
+                <span class="title">BE-5: Validación de longitud de caracteres</span>
+                <span class="details">Lanzar error HTTP 422 si el campo <code>texto</code> posee menos de 15 caracteres o más de 5000.</span>
+            </div>
+        </label>
+        <label class="checklist-item">
+            <input type="checkbox" class="task">
+            <div class="checklist-item-content">
+                <span class="title">BE-6: Manejo seguro de errores</span>
+                <span class="details">Manejo seguro ante payloads rotos o errores inesperados del servidor.</span>
+            </div>
+        </label>
+    </div>
+
+    <!-- Grupo 3 -->
+    <h2>3. Entregables de Integración OCI</h2>
+    <div class="checklist-group">
+        <label class="checklist-item">
+            <input type="checkbox" class="task">
+            <div class="checklist-item-content">
+                <span class="title">OCI-1: Integración de un servicio OCI</span>
+                <span class="details">Validar uso de al menos un servicio OCI (Object Storage, Compute, Functions o Autonomous DB).</span>
+            </div>
+        </label>
+    </div>
+
+    <!-- Grupo 4 -->
+    <h2>4. Documentación y Demostración</h2>
+    <div class="checklist-group">
+        <label class="checklist-item">
+            <input type="checkbox" class="task" checked disabled>
+            <div class="checklist-item-content">
+                <span class="title">DOC-1: Guía de ejecución en README <span class="badge-done">LISTO</span></span>
+                <span class="details">Instrucciones de clonado, instalación de dependencias y ejecución descritas en <code>README.md</code>.</span>
+            </div>
+        </label>
+        <label class="checklist-item">
+            <input type="checkbox" class="task" checked disabled>
+            <div class="checklist-item-content">
+                <span class="title">DOC-2: Ejemplos mínimos de uso <span class="badge-done">LISTO</span></span>
+                <span class="details">Inclusión de 3 ejemplos reales tipo <code>curl</code> en la guía de documentación del proyecto.</span>
+            </div>
+        </label>
+        <label class="checklist-item">
+            <input type="checkbox" class="task" checked disabled>
+            <div class="checklist-item-content">
+                <span class="title">DOC-3: Listado de dependencias <span class="badge-done">LISTO</span></span>
+                <span class="details">Archivo <code>requirements.txt</code> en la raíz declarando todas las librerías necesarias.</span>
+            </div>
+        </label>
+        <label class="checklist-item">
+            <input type="checkbox" class="task">
+            <div class="checklist-item-content">
+                <span class="title">DEM-1: Video de demostración funcional</span>
+                <span class="details">Grabación de video de corta duración subido a YouTube explicando el funcionamiento global del MVP.</span>
+            </div>
+        </label>
+    </div>
+</div>
+
+<script>
+    const tasks = document.querySelectorAll('.task');
+    const progressBar = document.getElementById('progress-bar');
+    const progressPercent = document.getElementById('progress-percent');
+
+    function updateProgress() {
+        const total = tasks.length;
+        let completed = 0;
+
+        tasks.forEach(task => {
+            const item = task.closest('.checklist-item');
+            if (task.checked) {
+                completed++;
+                item.classList.add('checked');
+            } else {
+                item.classList.remove('checked');
+            }
+        });
+
+        const percent = Math.round((completed / total) * 100);
+        progressBar.style.width = percent + '%';
+        progressPercent.textContent = percent + '%';
+    }
+
+    tasks.forEach(task => {
+        if (!task.disabled) {
+            task.addEventListener('change', updateProgress);
+            
+            // Permitir hacer clic en todo el bloque para marcar
+            const item = task.closest('.checklist-item');
+            item.addEventListener('click', (e) => {
+                if (e.target !== task) {
+                    task.checked = !task.checked;
+                    updateProgress();
+                }
+            });
+        }
+    });
+
+    // Ejecutar progreso inicial
+    updateProgress();
+</script>
+
+</body>
+</html>
