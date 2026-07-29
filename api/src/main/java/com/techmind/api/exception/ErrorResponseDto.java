@@ -1,5 +1,10 @@
 package com.techmind.api.exception;
 
-public class ErrorResponseDto {
-    
-}
+import java.time.LocalDateTime;
+
+public record ErrorResponseDto(
+        int status,
+        String error,
+        String mensaje,
+        LocalDateTime timestamp
+) {}
