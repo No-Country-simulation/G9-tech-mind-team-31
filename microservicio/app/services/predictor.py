@@ -1,11 +1,13 @@
 import os
 import joblib
 from app.schemas import ContenidoEntrada, ContenidoSalida
+from app.services.text_cleaner import TextCleaner
 
 MODELS_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "models")
 
 model = joblib.load(os.path.join(MODELS_DIR, "model.joblib"))
 vectorizer = joblib.load(os.path.join(MODELS_DIR, "vectorizer.joblib"))
+cleaner = TextCleaner()
 
 def extraer_palabras_clave(texto_vectorizado, top_n=3):
     nombres_terminos = vectorizer.get_feature_names_out()
@@ -15,7 +17,8 @@ def extraer_palabras_clave(texto_vectorizado, top_n=3):
 
 def predecir_categoria(contenido: ContenidoEntrada) -> ContenidoSalida:
     texto_completo = contenido.titulo + " " + contenido.texto
-    texto_vectorizado = vectorizer.transform([texto_completo])
+    texto_limpio = cleaner.clean(texto_completo)
+    texto_vectorizado = vectorizer.transform([texto_limpio])
 
     categoria = model.predict(texto_vectorizado)[0]
     probabilidades = model.predict_proba(texto_vectorizado)[0]
