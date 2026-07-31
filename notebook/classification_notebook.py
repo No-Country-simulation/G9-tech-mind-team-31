@@ -12,7 +12,7 @@ import pandas as pd
 import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.linear_model import LogisticRegression
+from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import classification_report, confusion_matrix
 
 # Agrego la ruta actual al path para importar el text_cleaner local
@@ -79,7 +79,7 @@ print(f"Tamaño de mi set de prueba: {len(X_test)}")
 
 # %%
 # Inicializo mi vectorizador TF-IDF
-vectorizer = TfidfVectorizer(sublinear_tf=True, min_df=1, norm='l2', encoding='utf-8', ngram_range=(1, 1))
+vectorizer = TfidfVectorizer(sublinear_tf=True, min_df=1, norm='l2', encoding='utf-8', ngram_range=(1, 2), max_features=250)
 
 # Ajusto con el set de entrenamiento y transformo ambos conjuntos
 X_train_tfidf = vectorizer.fit_transform(X_train)
@@ -89,11 +89,11 @@ print(f"Número de características únicas extraídas (vocabulario): {X_train_t
 
 # %% [markdown]
 # ## Paso 6: Entrenamiento del Modelo
-# Utilizo Regresión Logística con pesos balanceados para entrenar mi clasificador sobre las features vectorizadas.
+# Utilizo Naive Bayes Multinomial para entrenar mi clasificador sobre las features vectorizadas.
 
 # %%
 # Entreno mi clasificador
-model = LogisticRegression(C=10.0, class_weight='balanced', random_state=42)
+model = MultinomialNB(alpha=0.1)
 model.fit(X_train_tfidf, y_train)
 
 print("¡Modelo entrenado exitosamente!")
