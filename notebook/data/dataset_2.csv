@@ -1,0 +1,501 @@
+text,label
+Modelado estadístico con BigQuery enfocado en análisis de datos a gran escala en la nube de Google. Ver más en https://scikit-learn.org/stable/. #bigdata #python,Data Science
+Detectar ataque o ataques de denegación de servicio (DDoS) o inyecciones de código malicioso en el firewall.,Ciberseguridad
+Caso práctico de clustering con K-Means en proyectos de segmentación no supervisada de usuarios. #bigdata #python,Data Science
+Comparativa técnica de shadcn/ui frente a otras alternativas para componentes accesibles reutilizables sobre Radix UI. Contacto: info@aiservices.dev.,Frontend
+Guía práctica sobre Angular 18 aplicado a arquitecturas basadas en signals y standalone components. Ver más en https://react.dev. **importante**,Frontend
+Construcción de un pipeline con dashboards con Power BI para visualización interactiva de métricas de negocio. Ver más en https://spark.apache.org/docs/. #analytics #python,Data Science
+Data-driven decision making using modelos de regresión y clasificación con scikit-learn focused on predicción sobre datos estructurados. <p>v2.0</p> #analytics #datascience,Data Science
+Migración de un proyecto legacy hacia PWA para mejorar aplicaciones web progresivas con soporte offline. Ver más en https://svelte.dev/docs.,Frontend
+Extracción de insights comerciales y análisis descriptivo a partir de consultas complejas de agregación con Pandas.,Data Science
+Evaluación de riesgos mediante pruebas de penetración (pentesting) orientada a identificación de vulnerabilidades en aplicaciones web.,Ciberseguridad
+"Building scalable backend systems using Golang, PostgreSQL database, and Redis caching. Learn more at https://go.dev/doc/tutorial/web-service-gin",Backend
+Building scalable backend systems with NestJS focused on una arquitectura modular inspirada en Angular. Ver más en https://fastapi.tiangolo.com/. #backend,Backend
+Análisis de BigQuery orientado a análisis de datos a gran escala en la nube de Google. Ver más en https://spark.apache.org/docs/.,Data Science
+Comparativa técnica de SvelteKit frente a otras alternativas para renderizado híbrido SSR/SSG para mejorar el SEO. Ver más en https://svelte.dev/docs. Contacto: security@infosec.com. <p>v2.0</p> #react,Frontend
+"Automatización de reportes con pipelines ETL para extracción, transformación y carga de datos. Ver más en https://pandas.pydata.org/docs/. <p>v2.0</p> #analytics #bigdata",Data Science
+Procesamiento de grandes volúmenes de datos con clustering con K-Means para segmentación no supervisada de usuarios. Ver más en https://scikit-learn.org/stable/.,Data Science
+Diseño de políticas de seguridad basadas en VPN y túneles cifrados para protección de comunicaciones remotas. #cybersecurity #infosec,Ciberseguridad
+Configuración de un pool de conexiones en Node con pg-pool y optimización de índices en bases de datos relacionales SQL.,Backend
+Building AI-powered applications using modelos Transformer focused on procesamiento de lenguaje natural a gran escala. #ai #deeplearning,Inteligencia artificial
+Procesamiento de grandes volúmenes de datos con A/B testing para validación estadística de decisiones de producto.,Data Science
+Ejecución de auditorías de seguridad con Nmap y Burp Suite enfocada en escaneo de puertos y vulnerabilidades. Ver más en https://nmap.org/docs.html. Contacto: soporte@backend.io. #pentesting,Ciberseguridad
+Metodología de autenticación multifactor (MFA) aplicada a reducción del riesgo de acceso no autorizado. Ver más en https://owasp.org/www-project-top-ten/. Contacto: team@datalab.io.,Ciberseguridad
+Optimización de hiperparámetros en LangChain para mejorar orquestación de agentes con modelos de lenguaje.,Inteligencia artificial
+Procesamiento de grandes volúmenes de datos con Apache Airflow para orquestación de flujos de trabajo de datos. Ver más en https://airflow.apache.org/docs/.,Data Science
+Buenas prácticas al trabajar con PWA en aplicaciones web progresivas con soporte offline. Ver más en https://tailwindcss.com/docs. #ui #react,Frontend
+Evaluación de riesgos mediante autenticación multifactor (MFA) orientada a reducción del riesgo de acceso no autorizado.,Ciberseguridad
+Cybersecurity best practices using auditorías de seguridad con Nmap y Burp Suite focused on escaneo de puertos y vulnerabilidades.,Ciberseguridad
+Diseño e implementación de Redis orientado a caché distribuida y colas de mensajes. Ver más en https://fastapi.tiangolo.com/.,Backend
+"Building modern user interfaces with PWA, focused on aplicaciones web progresivas con soporte offline. **importante**",Frontend
+Automatización de reportes con Apache Airflow para orquestación de flujos de trabajo de datos. #bigdata #etl,Data Science
+Ejecución de autenticación multifactor (MFA) enfocada en reducción del riesgo de acceso no autorizado. Contacto: team@datalab.io.,Ciberseguridad
+Construcción de un pipeline con análisis exploratorio de datos (EDA) para identificación de patrones y outliers. Ver más en https://airflow.apache.org/docs/. <div>Demo</div>,Data Science
+Detección temprana de amenazas usando OWASP Top 10 en mitigación de vulnerabilidades críticas como SQL injection y XSS. Ver más en https://nmap.org/docs.html.,Ciberseguridad
+Arquitectura de servicios backend con Python FastAPI aplicada a endpoints asíncronos de alto rendimiento. #server #devops,Backend
+Estilizado ágil de aplicaciones web usando Tailwind CSS y diseño adaptable para dispositivos móviles. Ver ejemplo en http://localhost:3000/demo. **Tailwind** es asombroso.,Frontend
+Análisis de Apache Spark orientado a procesamiento distribuido de grandes volúmenes de datos. Ver más en https://scikit-learn.org/stable/. #bigdata,Data Science
+Modelado estadístico con análisis exploratorio de datos (EDA) enfocado en identificación de patrones y outliers.,Data Science
+Configuración de políticas de seguridad CSP (Content Security Policy) para mitigar inyecciones XSS y clickjacking.,Ciberseguridad
+Escalabilidad horizontal de Node.js y Express en sistemas de APIs RESTful escalables. Ver más en https://spring.io/projects/spring-boot.,Backend
+Uso de YOLOv8 para la detección en tiempo real de vehículos y peatones en secuencias de video de alta definición.,Inteligencia artificial
+Automatización de reportes con pandas y NumPy para limpieza y transformación de datos tabulares. Contacto: team@datalab.io. #python,Data Science
+Cómo estructurar componentes escalables usando Vite en proyectos de un bundler rápido con hot module replacement. Ver más en https://angular.dev/docs.,Frontend
+Caso de estudio: pruebas de penetración (pentesting) utilizado para identificación de vulnerabilidades en aplicaciones web. Contacto: info@aiservices.dev. #pentesting #security,Ciberseguridad
+Guía de despliegue de Java Spring Boot en la nube para arquitecturas de microservicios. Contacto: security@infosec.com. #backend #devops,Backend
+Implementación de WebSockets para comunicación bidireccional en tiempo real utilizando socket.io y Node.js.,Backend
+Buenas prácticas al trabajar con shadcn/ui en componentes accesibles reutilizables sobre Radix UI. Ver más en https://vuejs.org.,Frontend
+"Desarrollo de interfaces de usuario interactivas utilizando React, HTML5 y CSS3 moderno con diseño responsivo. Más info en https://react.dev o escribe a contact@frontend.com. <div>React rules!</div>",Frontend
+Implementación de arquitecturas de Transformers y modelos de lenguaje a gran escala (LLM) usando la API de Hugging Face. Visita https://huggingface.co/models,Inteligencia artificial
+Metodología de análisis forense digital aplicada a recolección de evidencia tras un incidente de seguridad. Contacto: team@datalab.io. #hacking #infosec,Ciberseguridad
+"Implementación de protocolos de cifrado simétrico y asimétrico (AES, RSA) para la transferencia segura de datos sensibles.",Ciberseguridad
+Implementación de tokens CSRF y cabeceras de autorización Bearer JWT para securizar la comunicación entre clientes y servidores.,Ciberseguridad
+Diseño e implementación de RabbitMQ orientado a comunicación asíncrona entre microservicios. #devops #microservices,Backend
+"Building modern user interfaces with Web Components, focused on encapsulamiento de UI reutilizable entre frameworks. Contacto: soporte@backend.io.",Frontend
+Construcción de un pipeline con Databricks para procesamiento colaborativo de datos en la nube. Ver más en https://spark.apache.org/docs/. #python #etl,Data Science
+Manejo de errores y logging en aplicaciones con Java Spring Boot para arquitecturas de microservicios. <span>beta</span> #microservices #devops,Backend
+Estructuración de controladores y servicios en Express utilizando TypeScript y arquitectura hexagonal.,Backend
+Comparativa técnica de PWA frente a otras alternativas para aplicaciones web progresivas con soporte offline. Ver más en https://vuejs.org. <p>v2.0</p>,Frontend
+Uso de algoritmos de clustering K-Means para segmentación de clientes a partir de datos estadísticos históricos en Jupyter Notebooks.,Data Science
+Optimización de consultas y rendimiento del servidor usando PostgreSQL para modelado relacional y optimización de consultas. #backend #devops,Backend
+Migración de un proyecto legacy hacia Astro para mejorar islands architecture para sitios de contenido estático. Ver más en https://svelte.dev/docs. **importante**,Frontend
+Evaluación de riesgos mediante hardening de servidores Linux orientada a reducción de la superficie de ataque. <div>Demo</div> #infosec #cybersecurity,Ciberseguridad
+Entrenamiento de fine-tuning de LLMs enfocado en adaptación de modelos preentrenados a dominios específicos. Ver más en https://pytorch.org/docs/. #ml,Inteligencia artificial
+Fundamentos teóricos y prácticos de modelos Transformer aplicados a procesamiento de lenguaje natural a gran escala. Contacto: info@aiservices.dev.,Inteligencia artificial
+Cybersecurity best practices using pruebas de penetración (pentesting) focused on identificación de vulnerabilidades en aplicaciones web.,Ciberseguridad
+Buenas prácticas al trabajar con Qwik en arquitectura resumable para cargas instantáneas. <span>beta</span>,Frontend
+Deploying computer vision models to edge devices using TensorFlow Lite and ONNX Runtime. Details: https://onnx.ai.,Inteligencia artificial
+Implementación de análisis de malware para ingeniería inversa de binarios sospechosos en infraestructuras corporativas. Contacto: contact@devteam.com. <div>Demo</div>,Ciberseguridad
+Implementación de autenticación de dos factores (2FA / MFA) y políticas de contraseñas seguras a nivel corporativo.,Ciberseguridad
+Arquitectura de servicios backend con Java Spring Boot aplicada a arquitecturas de microservicios. **importante** #microservices #server,Backend
+Data-driven decision making using Matplotlib y Seaborn focused on visualización estadística de datos. Ver más en https://airflow.apache.org/docs/. Contacto: team@datalab.io. <div>Demo</div> #analytics #datascience,Data Science
+Data-driven decision making using pandas y NumPy focused on limpieza y transformación de datos tabulares. #bigdata,Data Science
+Caso práctico de feature engineering en proyectos de creación de variables predictivas para modelos.,Data Science
+Despliegue en producción de visión por computadora con YOLO para sistemas de detección de objetos en tiempo real. <code>npm install</code> #ai,Inteligencia artificial
+Evaluación de métricas de desempeño de Hugging Face Transformers en modelos preentrenados de NLP en producción. Ver más en https://pytorch.org/docs/. Contacto: soporte@backend.io. #llm,Inteligencia artificial
+Fundamentos teóricos y prácticos de embeddings vectoriales aplicados a búsqueda semántica en bases de datos vectoriales.,Inteligencia artificial
+Implementación de aprendizaje por refuerzo (RL) para tareas de toma de decisiones secuenciales en entornos simulados.,Inteligencia artificial
+Implementación de redes neuronales convolucionales (CNN) para tareas de visión computacional y detección de objetos. Contacto: soporte@backend.io.,Inteligencia artificial
+Optimización de hiperparámetros utilizando GridSearchCV para modelos de regresión XGBoost en Jupyter Notebooks.,Data Science
+Ejecución de firewalls de nueva generación (NGFW) enfocada en protección perimetral de redes corporativas. Ver más en https://owasp.org/www-project-top-ten/. #cybersecurity #infosec,Ciberseguridad
+Implementación de hardening de servidores Linux para reducción de la superficie de ataque en infraestructuras corporativas. Contacto: security@infosec.com. #cybersecurity,Ciberseguridad
+"Building modern user interfaces with Svelte, focused on compilación en build time sin virtual DOM.",Frontend
+Implementación de Tailwind CSS para un sistema de diseño utility-first responsivo.,Frontend
+Metodología de Zero Trust Architecture aplicada a verificación continua de identidad y acceso.,Ciberseguridad
+Building scalable backend systems with GraphQL focused on consultas flexibles de datos desde el cliente. Contacto: contact@devteam.com. #server #backend,Backend
+Caso de estudio: uso de modelos Transformer en proyectos reales de procesamiento de lenguaje natural a gran escala. Ver más en https://huggingface.co/docs. #nlp #llm,Inteligencia artificial
+Cómo estructurar componentes escalables usando Svelte en proyectos de compilación en build time sin virtual DOM. <span>beta</span>,Frontend
+Configuración de RabbitMQ para comunicación asíncrona entre microservicios en entornos de producción.,Backend
+Análisis de Databricks orientado a procesamiento colaborativo de datos en la nube.,Data Science
+Optimización de hiperparámetros en fine-tuning de LLMs para mejorar adaptación de modelos preentrenados a dominios específicos. #ml,Inteligencia artificial
+Entrenamiento de redes neuronales recurrentes (LSTM/GRU) enfocado en modelado de secuencias temporales. #nlp #ml,Inteligencia artificial
+Análisis de A/B testing orientado a validación estadística de decisiones de producto. Ver más en https://spark.apache.org/docs/. #datascience #analytics,Data Science
+Caso de estudio: firewalls de nueva generación (NGFW) utilizado para protección perimetral de redes corporativas. #infosec #pentesting,Ciberseguridad
+Procesamiento de grandes volúmenes de datos con series temporales con Prophet para pronóstico de demanda y ventas. Ver más en https://spark.apache.org/docs/.,Data Science
+Evaluación de métricas de desempeño de PyTorch en entrenamiento de modelos de deep learning.,Inteligencia artificial
+Cybersecurity best practices using autenticación multifactor (MFA) focused on reducción del riesgo de acceso no autorizado. Ver más en https://nmap.org/docs.html.,Ciberseguridad
+Modelado estadístico con Apache Spark enfocado en procesamiento distribuido de grandes volúmenes de datos. Ver más en https://pandas.pydata.org/docs/. #datascience #python,Data Science
+Guía práctica sobre Tailwind CSS aplicado a un sistema de diseño utility-first responsivo. #webdev #react,Frontend
+"Optimización del rendimiento del lado del cliente usando Next.js, enfocado en server-side rendering e incremental static regeneration.",Frontend
+Ejecución de análisis forense digital enfocada en recolección de evidencia tras un incidente de seguridad.,Ciberseguridad
+Limpieza de datos faltantes (NaN) y análisis exploratorio (EDA) con la librería Pandas de Python y visualización con Seaborn.,Data Science
+Caso de estudio: uso de AutoML en proyectos reales de automatización de la selección de hiperparámetros. Contacto: info@aiservices.dev. <div>Demo</div>,Inteligencia artificial
+Ejecución de Zero Trust Architecture enfocada en verificación continua de identidad y acceso.,Ciberseguridad
+"Using Pandas, NumPy, and Scikit-Learn to build data visualization dashboards and predictive pipelines. Details at https://scikit-learn.org/stable/",Data Science
+Fundamentos teóricos y prácticos de MLOps aplicados a despliegue continuo de modelos de machine learning.,Inteligencia artificial
+"Caso práctico de pipelines ETL en proyectos de extracción, transformación y carga de datos. Ver más en https://airflow.apache.org/docs/.",Data Science
+Optimización del rendimiento de la base de datos MySQL mediante creación de índices y análisis de planes de ejecución EXPLAIN.,Backend
+Fundamentos teóricos y prácticos de aprendizaje por refuerzo (RL) aplicados a toma de decisiones secuenciales en entornos simulados. Ver más en https://pytorch.org/docs/. #llm,Inteligencia artificial
+Diseño e implementación de Python FastAPI orientado a endpoints asíncronos de alto rendimiento. Ver más en https://expressjs.com/.,Backend
+Modelado estadístico con SQL avanzado y window functions enfocado en análisis de datos en bases relacionales. Ver más en https://scikit-learn.org/stable/. #analytics #bigdata,Data Science
+Guía práctica sobre Pinia aplicado a manejo de estado global en aplicaciones Vue.,Frontend
+"Optimización del rendimiento del lado del cliente usando Redux Toolkit, enfocado en gestión predecible del estado de la aplicación. Ver más en https://svelte.dev/docs. #webdev",Frontend
+Diseño de políticas de seguridad basadas en criptografía asimétrica para cifrado y firma digital de comunicaciones.,Ciberseguridad
+Automatización de reportes con modelos de regresión y clasificación con scikit-learn para predicción sobre datos estructurados.,Data Science
+Diseño de interfaz móvil en Figma e implementación con Flutter y Material Design. Ver prototipo interactivo en https://figma.com/file/123.,Frontend
+Cybersecurity best practices using criptografía asimétrica focused on cifrado y firma digital de comunicaciones. Ver más en https://portswigger.net/burp/documentation. #cybersecurity,Ciberseguridad
+Entrenamiento de Hugging Face Transformers enfocado en modelos preentrenados de NLP en producción. <code>npm install</code> #ai #ml,Inteligencia artificial
+Fundamentos teóricos y prácticos de LangChain aplicados a orquestación de agentes con modelos de lenguaje. Ver más en https://python.langchain.com/docs/.,Inteligencia artificial
+Manejo de errores y logging en aplicaciones con Apache Kafka para streaming de eventos en tiempo real.,Backend
+Buenas prácticas al trabajar con SvelteKit en renderizado híbrido SSR/SSG para mejorar el SEO. #react #css,Frontend
+Aplicación de imputación de datos nulos y normalización de variables numéricas antes de entrenar clasificadores.,Data Science
+Diseño e implementación de Node.js y Express orientado a APIs RESTful escalables. Ver más en https://go.dev/doc/.,Backend
+Diseño e implementación de Java Spring Boot orientado a arquitecturas de microservicios. #api,Backend
+Despliegue en producción de fine-tuning de LLMs para sistemas de adaptación de modelos preentrenados a dominios específicos. <div>Demo</div> #ml #nlp,Inteligencia artificial
+Comparativa técnica de Vite frente a otras alternativas para un bundler rápido con hot module replacement. <span>beta</span>,Frontend
+Configuración de Node.js y Express para APIs RESTful escalables en entornos de producción. <div>Demo</div> #microservices,Backend
+Guía de despliegue de Node.js y Express en la nube para APIs RESTful escalables. #backend #server,Backend
+Diseño de políticas de seguridad basadas en ataques de phishing para concientización y prevención en entornos corporativos. Ver más en https://owasp.org/www-project-top-ten/. **importante**,Ciberseguridad
+Optimización de consultas y rendimiento del servidor usando .NET Core para servicios backend multiplataforma. Ver más en https://go.dev/doc/. #api #microservices,Backend
+Buenas prácticas al trabajar con Astro en islands architecture para sitios de contenido estático. #frontend #react,Frontend
+Evaluación de métricas de desempeño de AutoML en automatización de la selección de hiperparámetros.,Inteligencia artificial
+Creación de endpoints seguros para autenticación de usuarios utilizando JSON Web Tokens (JWT) y bcrypt en Express.,Backend
+Comparativa técnica de Tailwind CSS frente a otras alternativas para un sistema de diseño utility-first responsivo. **importante**,Frontend
+Metodología de SIEM (Security Information and Event Management) aplicada a monitoreo centralizado de eventos de seguridad. Ver más en https://portswigger.net/burp/documentation. <div>Demo</div>,Ciberseguridad
+Implementación de fine-tuning de LLMs para tareas de adaptación de modelos preentrenados a dominios específicos. Ver más en https://pytorch.org/docs/. <code>npm install</code> #nlp,Inteligencia artificial
+"Optimización del rendimiento del lado del cliente usando Vue.js 3, enfocado en la Composition API y el manejo reactivo de estado. Ver más en https://tailwindcss.com/docs. **importante** #webdev #react",Frontend
+Configuración de una pasarela de pagos segura (Stripe API) en un servidor NestJS con validación de Webhooks.,Backend
+Guía de despliegue de RabbitMQ en la nube para comunicación asíncrona entre microservicios. #server,Backend
+"Defending enterprise networks against malware, phishing attacks, and zero-day security vulnerabilities. Report issues to abuse@secure-net.org.",Ciberseguridad
+"Construcción de pipelines ETL complejos para limpiar, transformar y cargar datos estructurados en data warehouses como AWS Redshift.",Data Science
+Optimización de hiperparámetros en visión por computadora con YOLO para mejorar detección de objetos en tiempo real. Ver más en https://www.tensorflow.org/guide.,Inteligencia artificial
+Análisis de correlación de variables utilizando coeficientes de Pearson y visualización de mapas de calor con Seaborn.,Data Science
+Arquitectura de servicios backend con Node.js y Express aplicada a APIs RESTful escalables. #devops,Backend
+Detección temprana de amenazas usando firewalls de nueva generación (NGFW) en protección perimetral de redes corporativas. Ver más en https://portswigger.net/burp/documentation.,Ciberseguridad
+Cómo estructurar componentes escalables usando SvelteKit en proyectos de renderizado híbrido SSR/SSG para mejorar el SEO. #frontend,Frontend
+Building AI-powered applications using fine-tuning de LLMs focused on adaptación de modelos preentrenados a dominios específicos. #deeplearning,Inteligencia artificial
+Despliegue en producción de PyTorch para sistemas de entrenamiento de modelos de deep learning. Contacto: info@aiservices.dev.,Inteligencia artificial
+Configuración de firewall y firewalls avanzados (p.ej. pfsense) y sistemas de detección de intrusos (IDS) para proteger infraestructura crítica.,Ciberseguridad
+Building scalable backend systems with .NET Core focused on servicios backend multiplataforma. Ver más en https://go.dev/doc/.,Backend
+Despliegue en producción de LangChain para sistemas de orquestación de agentes con modelos de lenguaje. Ver más en https://www.tensorflow.org/guide. Contacto: team@datalab.io.,Inteligencia artificial
+Evaluación de riesgos mediante ataques de phishing orientada a concientización y prevención en entornos corporativos.,Ciberseguridad
+"Creación de una API RESTful utilizando Node.js, Express y base de datos relacional PostgreSQL con Sequelize. Configura tu base de datos en postgresql://db-admin.",Backend
+Migración de un proyecto legacy hacia Web Components para mejorar encapsulamiento de UI reutilizable entre frameworks. Ver más en https://vuejs.org. #css #webdev,Frontend
+Análisis forense digital tras incidentes de seguridad y recuperación de logs comprometidos en servidores Linux.,Ciberseguridad
+Entrenamiento de modelos predictivos de regresión lineal y árboles de decisión (Decision Trees) para analizar tendencias de ventas del mercado.,Data Science
+Diseño de políticas de seguridad basadas en SIEM (Security Information and Event Management) para monitoreo centralizado de eventos de seguridad. Ver más en https://owasp.org/www-project-top-ten/. #security,Ciberseguridad
+Procesamiento de grandes volúmenes de datos con análisis exploratorio de datos (EDA) para identificación de patrones y outliers. #python,Data Science
+Optimización del rendimiento del lado del cliente mediante carga diferida (lazy loading) de módulos en Angular. <p>Angular v16</p> y TypeScript.,Frontend
+Building scalable backend systems with Python FastAPI focused on endpoints asíncronos de alto rendimiento. Contacto: info@aiservices.dev. <p>v2.0</p>,Backend
+"Data-driven decision making using pipelines ETL focused on extracción, transformación y carga de datos. Ver más en https://scikit-learn.org/stable/. #etl #analytics",Data Science
+Construcción de un pipeline de fine-tuning para Whisper en tareas de reconocimiento de voz y transcripción automática.,Inteligencia artificial
+Implementación de Angular 18 para arquitecturas basadas en signals y standalone components. Ver más en https://react.dev. <p>v2.0</p>,Frontend
+Fundamentos teóricos y prácticos de prompt engineering aplicados a diseño de instrucciones efectivas para LLMs.,Inteligencia artificial
+Detección temprana de amenazas usando pruebas de penetración (pentesting) en identificación de vulnerabilidades en aplicaciones web.,Ciberseguridad
+Building a clean user interface with React Native for Android and iOS devices. Check https://reactnative.dev.,Frontend
+Detección temprana de amenazas usando gestión de identidades (IAM) en control de accesos con privilegios mínimos. Ver más en https://nmap.org/docs.html.,Ciberseguridad
+Caso de estudio: ataques de phishing utilizado para concientización y prevención en entornos corporativos. Contacto: security@infosec.com. <div>Demo</div> #pentesting #hacking,Ciberseguridad
+"Maquetación web con HTML semántico, CSS Variables y preprocesadores como SASS para estructurar estilos limpios.",Frontend
+Desarrollo de servicios robustos con Python FastAPI y optimización de consultas complejas en bases de datos SQL. Consulta la documentación en https://fastapi.tiangolo.com/,Backend
+Ejecución de respuesta a incidentes (Incident Response) enfocada en contención y remediación de brechas de seguridad.,Ciberseguridad
+Cómo estructurar componentes escalables usando Web Components en proyectos de encapsulamiento de UI reutilizable entre frameworks. Contacto: contact@devteam.com.,Frontend
+Desarrollo de un clasificador de spam en correos electrónicos utilizando Naive Bayes multinomial en Python.,Inteligencia artificial
+Implementación de Svelte para compilación en build time sin virtual DOM. Ver más en https://tailwindcss.com/docs.,Frontend
+Ejecución de VPN y túneles cifrados enfocada en protección de comunicaciones remotas. Ver más en https://portswigger.net/burp/documentation.,Ciberseguridad
+"Optimización del rendimiento del lado del cliente usando CSS Grid y Flexbox, enfocado en layouts adaptables para múltiples dispositivos. Ver más en https://tailwindcss.com/docs. #webdev",Frontend
+Comparativa técnica de Qwik frente a otras alternativas para arquitectura resumable para cargas instantáneas. #frontend,Frontend
+Escalabilidad horizontal de gRPC en sistemas de comunicación eficiente entre servicios internos. Ver más en https://spring.io/projects/spring-boot. #server,Backend
+Procesamiento de grandes volúmenes de datos con feature engineering para creación de variables predictivas para modelos.,Data Science
+Diseño e implementación de .NET Core orientado a servicios backend multiplataforma. Ver más en https://docs.docker.com/.,Backend
+Comparativa técnica de Next.js frente a otras alternativas para server-side rendering e incremental static regeneration. Ver más en https://svelte.dev/docs.,Frontend
+Caso práctico de Apache Spark en proyectos de procesamiento distribuido de grandes volúmenes de datos. #etl #datascience,Data Science
+Procesamiento de grandes volúmenes de datos con Apache Spark para procesamiento distribuido de grandes volúmenes de datos.,Data Science
+Configuración de GraphQL para consultas flexibles de datos desde el cliente en entornos de producción.,Backend
+Construcción de un pipeline con clustering con K-Means para segmentación no supervisada de usuarios. Ver más en https://spark.apache.org/docs/. <code>npm install</code>,Data Science
+Evaluación de métricas de desempeño de embeddings vectoriales en búsqueda semántica en bases de datos vectoriales. #llm,Inteligencia artificial
+Ejecución de pruebas de penetración (pentesting) enfocada en identificación de vulnerabilidades en aplicaciones web. #hacking,Ciberseguridad
+Guía práctica sobre SvelteKit aplicado a renderizado híbrido SSR/SSG para mejorar el SEO. #react #webdev,Frontend
+Análisis de pandas y NumPy orientado a limpieza y transformación de datos tabulares. <span>beta</span>,Data Science
+Implementación de pipelines de clasificación utilizando Random Forest y evaluación por validación cruzada (K-Fold Cross Validation).,Data Science
+Diseño e implementación de PostgreSQL orientado a modelado relacional y optimización de consultas.,Backend
+Arquitectura de servicios backend con Nginx aplicada a balanceo de carga y proxy inverso. #api,Backend
+Caso de estudio: respuesta a incidentes (Incident Response) utilizado para contención y remediación de brechas de seguridad. <code>npm install</code> #security,Ciberseguridad
+Automatización de reportes con análisis exploratorio de datos (EDA) para identificación de patrones y outliers.,Data Science
+Análisis de clustering con K-Means orientado a segmentación no supervisada de usuarios. Ver más en https://airflow.apache.org/docs/. <code>npm install</code> #etl #datascience,Data Science
+Evaluación de métricas de desempeño de aprendizaje por refuerzo (RL) en toma de decisiones secuenciales en entornos simulados. Contacto: security@infosec.com.,Inteligencia artificial
+"Optimización del rendimiento del lado del cliente usando Vite, enfocado en un bundler rápido con hot module replacement. Ver más en https://react.dev. #frontend",Frontend
+Despliegue en producción de redes neuronales recurrentes (LSTM/GRU) para sistemas de modelado de secuencias temporales.,Inteligencia artificial
+Implementación de CSS Grid y Flexbox para layouts adaptables para múltiples dispositivos. #webdev,Frontend
+Implementación de TypeScript para tipado estático para reducir errores en tiempo de compilación. <div>Demo</div>,Frontend
+Buenas prácticas al trabajar con CSS Grid y Flexbox en layouts adaptables para múltiples dispositivos. Ver más en https://tailwindcss.com/docs. #ui #frontend,Frontend
+Visualización de resultados usando BigQuery aplicada a análisis de datos a gran escala en la nube de Google. <code>npm install</code>,Data Science
+Metodología de OWASP Top 10 aplicada a mitigación de vulnerabilidades críticas como SQL injection y XSS. <p>v2.0</p>,Ciberseguridad
+Migración de un proyecto legacy hacia CSS Grid y Flexbox para mejorar layouts adaptables para múltiples dispositivos. Ver más en https://svelte.dev/docs. #frontend #react,Frontend
+Caso de estudio: uso de aprendizaje por refuerzo (RL) en proyectos reales de toma de decisiones secuenciales en entornos simulados. Ver más en https://python.langchain.com/docs/.,Inteligencia artificial
+Configuración de Redis para caché distribuida y colas de mensajes en entornos de producción. #devops #backend,Backend
+Manejo de errores y logging en aplicaciones con JWT y OAuth2 para autenticación y autorización de APIs. <p>v2.0</p>,Backend
+Configuración de Nginx para balanceo de carga y proxy inverso en entornos de producción. Contacto: security@infosec.com.,Backend
+Escalabilidad horizontal de .NET Core en sistemas de servicios backend multiplataforma.,Backend
+Auditoría de código estático (SAST) utilizando herramientas como SonarQube para detectar vulnerabilidades en el código fuente.,Ciberseguridad
+Diseño de políticas de seguridad basadas en análisis de malware para ingeniería inversa de binarios sospechosos. Ver más en https://portswigger.net/burp/documentation. <div>Demo</div>,Ciberseguridad
+Modelado estadístico con series temporales con Prophet enfocado en pronóstico de demanda y ventas. Ver más en https://airflow.apache.org/docs/.,Data Science
+Building AI-powered applications using Hugging Face Transformers focused on modelos preentrenados de NLP en producción.,Inteligencia artificial
+Buenas prácticas al trabajar con React en el desarrollo de interfaces con componentes reutilizables. <code>npm install</code> #css,Frontend
+Building AI-powered applications using visión por computadora con YOLO focused on detección de objetos en tiempo real. Ver más en https://www.tensorflow.org/guide. <p>v2.0</p>,Inteligencia artificial
+Optimización de hiperparámetros en TensorFlow/Keras para mejorar construcción de arquitecturas de redes neuronales. Ver más en https://www.tensorflow.org/guide.,Inteligencia artificial
+Optimización de hiperparámetros en prompt engineering para mejorar diseño de instrucciones efectivas para LLMs.,Inteligencia artificial
+Automatización de reportes con series temporales con Prophet para pronóstico de demanda y ventas. Ver más en https://pandas.pydata.org/docs/. Contacto: contact@devteam.com.,Data Science
+Data-driven decision making using análisis exploratorio de datos (EDA) focused on identificación de patrones y outliers. #bigdata #python,Data Science
+Diseño e implementación de Apache Kafka orientado a streaming de eventos en tiempo real. #microservices,Backend
+Procesamiento de grandes volúmenes de datos con pandas y NumPy para limpieza y transformación de datos tabulares. <div>Demo</div> #python #datascience,Data Science
+Manejo de errores y logging en aplicaciones con .NET Core para servicios backend multiplataforma. **importante**,Backend
+Modelado estadístico con modelos de regresión y clasificación con scikit-learn enfocado en predicción sobre datos estructurados. <p>v2.0</p> #datascience,Data Science
+Evaluación de métricas de desempeño de redes neuronales recurrentes (LSTM/GRU) en modelado de secuencias temporales. Ver más en https://pytorch.org/docs/. <p>v2.0</p>,Inteligencia artificial
+Implementación de procesamiento de lenguaje natural (NLP) con SpaCy para clasificación y extracción de entidades.,Inteligencia artificial
+Optimización de consultas y rendimiento del servidor usando JWT y OAuth2 para autenticación y autorización de APIs. #devops #backend,Backend
+"Building modern user interfaces with Angular 18, focused on arquitecturas basadas en signals y standalone components. Ver más en https://angular.dev/docs.",Frontend
+Caso práctico de A/B testing en proyectos de validación estadística de decisiones de producto. Contacto: soporte@backend.io. <code>npm install</code>,Data Science
+Escalabilidad horizontal de Sequelize/Prisma ORM en sistemas de mapeo objeto-relacional en Node.js. Contacto: team@datalab.io. #microservices,Backend
+Ejecución de análisis de malware enfocada en ingeniería inversa de binarios sospechosos.,Ciberseguridad
+Optimización de hiperparámetros en redes neuronales convolucionales (CNN) para mejorar visión computacional y detección de objetos. Contacto: security@infosec.com.,Inteligencia artificial
+Desarrollo de Workers en segundo plano para procesamiento de tareas pesadas en Node.js usando la librería BullMQ.,Backend
+"Optimización del rendimiento del lado del cliente usando Tailwind CSS, enfocado en un sistema de diseño utility-first responsivo.",Frontend
+Implementación de PWA para aplicaciones web progresivas con soporte offline. Contacto: soporte@backend.io. #webdev,Frontend
+Detección temprana de amenazas usando VPN y túneles cifrados en protección de comunicaciones remotas.,Ciberseguridad
+Diseño e implementación de arquitectura de microservicios con Java Spring Boot y comunicación mediante colas de mensajería RabbitMQ en el puerto 5672.,Backend
+Visualización de resultados usando Apache Spark aplicada a procesamiento distribuido de grandes volúmenes de datos. Ver más en https://airflow.apache.org/docs/.,Data Science
+Visualización de resultados usando Databricks aplicada a procesamiento colaborativo de datos en la nube. Contacto: team@datalab.io. #etl,Data Science
+Visualización de resultados usando análisis exploratorio de datos (EDA) aplicada a identificación de patrones y outliers.,Data Science
+"Optimización del rendimiento del lado del cliente usando TypeScript, enfocado en tipado estático para reducir errores en tiempo de compilación. <div>Demo</div> #react #webdev",Frontend
+Buenas prácticas al trabajar con Pinia en manejo de estado global en aplicaciones Vue. Ver más en https://vuejs.org. <div>Demo</div>,Frontend
+Configuración de .NET Core para servicios backend multiplataforma en entornos de producción. #devops #api,Backend
+Procesamiento de grandes volúmenes de datos con dashboards con Power BI para visualización interactiva de métricas de negocio. <span>beta</span> #datascience,Data Science
+Manejo de errores y logging en aplicaciones con Nginx para balanceo de carga y proxy inverso. #devops,Backend
+Diseño de políticas de seguridad basadas en pruebas de penetración (pentesting) para identificación de vulnerabilidades en aplicaciones web. Ver más en https://portswigger.net/burp/documentation. Contacto: soporte@backend.io.,Ciberseguridad
+Entrenamiento de modelos de redes neuronales convolucionales (CNN) para la detección de objetos y visión computacional en Python 3.10.,Inteligencia artificial
+Modelado estadístico con A/B testing enfocado en validación estadística de decisiones de producto. Ver más en https://scikit-learn.org/stable/. #python,Data Science
+Comparativa técnica de CSS Grid y Flexbox frente a otras alternativas para layouts adaptables para múltiples dispositivos. #frontend #react,Frontend
+Cómo estructurar componentes escalables usando TypeScript en proyectos de tipado estático para reducir errores en tiempo de compilación. Ver más en https://angular.dev/docs. <span>beta</span>,Frontend
+Uso de visión artificial con OpenCV para detectar rostros y gestos faciales en tiempo real a través de la webcam.,Inteligencia artificial
+Despliegue en producción de RAG (Retrieval-Augmented Generation) para sistemas de respuestas contextualizadas con bases de conocimiento externas. Ver más en https://python.langchain.com/docs/. #ai #nlp,Inteligencia artificial
+Configuración de Python FastAPI para endpoints asíncronos de alto rendimiento en entornos de producción. Ver más en https://go.dev/doc/.,Backend
+Implementación de firewalls de nueva generación (NGFW) para protección perimetral de redes corporativas en infraestructuras corporativas. Ver más en https://portswigger.net/burp/documentation.,Ciberseguridad
+Caso de estudio: uso de prompt engineering en proyectos reales de diseño de instrucciones efectivas para LLMs. Ver más en https://python.langchain.com/docs/. Contacto: security@infosec.com.,Inteligencia artificial
+Diseño de políticas de seguridad basadas en auditorías de seguridad con Nmap y Burp Suite para escaneo de puertos y vulnerabilidades. Ver más en https://portswigger.net/burp/documentation. <span>beta</span>,Ciberseguridad
+Optimización de consultas y rendimiento del servidor usando Python FastAPI para endpoints asíncronos de alto rendimiento. Ver más en https://expressjs.com/.,Backend
+Caso de estudio: uso de modelos generativos de difusión en proyectos reales de generación de imágenes sintéticas. Contacto: contact@devteam.com. <code>npm install</code>,Inteligencia artificial
+Evaluación de riesgos mediante Zero Trust Architecture orientada a verificación continua de identidad y acceso.,Ciberseguridad
+Buenas prácticas al trabajar con Vite en un bundler rápido con hot module replacement. Ver más en https://tailwindcss.com/docs. Contacto: info@aiservices.dev. <div>Demo</div>,Frontend
+"Visualización de resultados usando pipelines ETL aplicada a extracción, transformación y carga de datos. #etl #bigdata",Data Science
+Cómo estructurar componentes escalables usando shadcn/ui en proyectos de componentes accesibles reutilizables sobre Radix UI. #ui,Frontend
+Detección temprana de amenazas usando análisis de malware en ingeniería inversa de binarios sospechosos. <div>Demo</div>,Ciberseguridad
+Entrenamiento de modelos generativos de difusión enfocado en generación de imágenes sintéticas. Ver más en https://huggingface.co/docs. #nlp,Inteligencia artificial
+Guía práctica sobre React aplicado a el desarrollo de interfaces con componentes reutilizables.,Frontend
+Automatización de reportes con dashboards con Power BI para visualización interactiva de métricas de negocio. #analytics #etl,Data Science
+"Optimización del rendimiento del lado del cliente usando React, enfocado en el desarrollo de interfaces con componentes reutilizables. Ver más en https://tailwindcss.com/docs. Contacto: soporte@backend.io. <div>Demo</div>",Frontend
+Migración de un proyecto legacy hacia Pinia para mejorar manejo de estado global en aplicaciones Vue. <code>npm install</code> #react #frontend,Frontend
+Arquitectura de servicios backend con Go (Golang) aplicada a servicios concurrentes de baja latencia. <code>npm install</code> #backend,Backend
+Ejecución de gestión de identidades (IAM) enfocada en control de accesos con privilegios mínimos.,Ciberseguridad
+Guía práctica sobre TypeScript aplicado a tipado estático para reducir errores en tiempo de compilación. Ver más en https://react.dev.,Frontend
+Data-driven decision making using feature engineering focused on creación de variables predictivas para modelos.,Data Science
+Guía práctica sobre Web Components aplicado a encapsulamiento de UI reutilizable entre frameworks. Ver más en https://svelte.dev/docs. <code>npm install</code>,Frontend
+Configuración de JWT y OAuth2 para autenticación y autorización de APIs en entornos de producción. <code>npm install</code> #backend #microservices,Backend
+Arquitectura de servicios backend con GraphQL aplicada a consultas flexibles de datos desde el cliente. Ver más en https://expressjs.com/. Contacto: info@aiservices.dev. #microservices #devops,Backend
+Despliegue en producción de redes neuronales convolucionales (CNN) para sistemas de visión computacional y detección de objetos. #ai,Inteligencia artificial
+Optimización de hiperparámetros en modelos Transformer para mejorar procesamiento de lenguaje natural a gran escala. Ver más en https://pytorch.org/docs/. <div>Demo</div>,Inteligencia artificial
+Fundamentos teóricos y prácticos de visión por computadora con YOLO aplicados a detección de objetos en tiempo real.,Inteligencia artificial
+Data-driven decision making using series temporales con Prophet focused on pronóstico de demanda y ventas. <div>Demo</div>,Data Science
+Visualización de resultados usando SQL avanzado y window functions aplicada a análisis de datos en bases relacionales.,Data Science
+Construcción de un pipeline con BigQuery para análisis de datos a gran escala en la nube de Google. Ver más en https://pandas.pydata.org/docs/.,Data Science
+Fundamentos teóricos y prácticos de Hugging Face Transformers aplicados a modelos preentrenados de NLP en producción.,Inteligencia artificial
+Migración de un proyecto legacy hacia React para mejorar el desarrollo de interfaces con componentes reutilizables. Ver más en https://angular.dev/docs. <code>npm install</code>,Frontend
+Fundamentos teóricos y prácticos de redes neuronales recurrentes (LSTM/GRU) aplicados a modelado de secuencias temporales. #nlp,Inteligencia artificial
+Building scalable backend systems with Sequelize/Prisma ORM focused on mapeo objeto-relacional en Node.js. #server,Backend
+Diseño de políticas de seguridad basadas en firewalls de nueva generación (NGFW) para protección perimetral de redes corporativas.,Ciberseguridad
+Escalabilidad horizontal de RabbitMQ en sistemas de comunicación asíncrona entre microservicios. Ver más en https://spring.io/projects/spring-boot. <p>v2.0</p> #server,Backend
+Implementación de Redux Toolkit para gestión predecible del estado de la aplicación. <div>Demo</div>,Frontend
+Caso de estudio: criptografía asimétrica utilizado para cifrado y firma digital de comunicaciones.,Ciberseguridad
+Evaluación de métricas de desempeño de RAG (Retrieval-Augmented Generation) en respuestas contextualizadas con bases de conocimiento externas.,Inteligencia artificial
+Evaluación de riesgos mediante análisis forense digital orientada a recolección de evidencia tras un incidente de seguridad. Contacto: info@aiservices.dev. #cybersecurity,Ciberseguridad
+Modelado estadístico con Databricks enfocado en procesamiento colaborativo de datos en la nube. Contacto: contact@devteam.com. #datascience,Data Science
+Optimización de hiperparámetros en aprendizaje por refuerzo (RL) para mejorar toma de decisiones secuenciales en entornos simulados. <span>beta</span> #deeplearning #ai,Inteligencia artificial
+Análisis de Apache Airflow orientado a orquestación de flujos de trabajo de datos. <code>npm install</code> #datascience,Data Science
+Evaluación de métricas de desempeño de redes neuronales convolucionales (CNN) en visión computacional y detección de objetos. Ver más en https://www.tensorflow.org/guide.,Inteligencia artificial
+Análisis de Matplotlib y Seaborn orientado a visualización estadística de datos. Ver más en https://pandas.pydata.org/docs/.,Data Science
+Caso práctico de dashboards con Power BI en proyectos de visualización interactiva de métricas de negocio.,Data Science
+"Building modern user interfaces with Qwik, focused on arquitectura resumable para cargas instantáneas. <p>v2.0</p>",Frontend
+Diseño e implementación de Sequelize/Prisma ORM orientado a mapeo objeto-relacional en Node.js.,Backend
+Implementación de RAG (Retrieval-Augmented Generation) para tareas de respuestas contextualizadas con bases de conocimiento externas. #ml #deeplearning,Inteligencia artificial
+Metodología de ataques de phishing aplicada a concientización y prevención en entornos corporativos. Ver más en https://owasp.org/www-project-top-ten/.,Ciberseguridad
+Ejecución de OWASP Top 10 enfocada en mitigación de vulnerabilidades críticas como SQL injection y XSS. Ver más en https://nmap.org/docs.html.,Ciberseguridad
+Metodología de hardening de servidores Linux aplicada a reducción de la superficie de ataque. Ver más en https://portswigger.net/burp/documentation.,Ciberseguridad
+Detección temprana de amenazas usando análisis forense digital en recolección de evidencia tras un incidente de seguridad.,Ciberseguridad
+Manejo de errores y logging en aplicaciones con Python FastAPI para endpoints asíncronos de alto rendimiento. Ver más en https://fastapi.tiangolo.com/.,Backend
+Building AI-powered applications using PyTorch focused on entrenamiento de modelos de deep learning. Ver más en https://huggingface.co/docs. Contacto: contact@devteam.com. #deeplearning #nlp,Inteligencia artificial
+Arquitectura de servicios backend con JWT y OAuth2 aplicada a autenticación y autorización de APIs.,Backend
+Buenas prácticas al trabajar con TypeScript en tipado estático para reducir errores en tiempo de compilación.,Frontend
+Configuración de Apache Kafka para streaming de eventos en tiempo real en entornos de producción. Ver más en https://spring.io/projects/spring-boot.,Backend
+Optimización de hiperparámetros en Hugging Face Transformers para mejorar modelos preentrenados de NLP en producción. <p>v2.0</p> #deeplearning #llm,Inteligencia artificial
+Manejo de errores y logging en aplicaciones con Go (Golang) para servicios concurrentes de baja latencia.,Backend
+Cómo estructurar componentes escalables usando Redux Toolkit en proyectos de gestión predecible del estado de la aplicación. Contacto: team@datalab.io. <code>npm install</code> #react,Frontend
+Guía práctica sobre PWA aplicado a aplicaciones web progresivas con soporte offline.,Frontend
+Modelado estadístico con pandas y NumPy enfocado en limpieza y transformación de datos tabulares.,Data Science
+Guía de despliegue de Redis en la nube para caché distribuida y colas de mensajes. Ver más en https://spring.io/projects/spring-boot. #devops #server,Backend
+Caso práctico de Matplotlib y Seaborn en proyectos de visualización estadística de datos. <div>Demo</div>,Data Science
+Análisis de SQL avanzado y window functions orientado a análisis de datos en bases relacionales. Contacto: info@aiservices.dev.,Data Science
+"Optimización del rendimiento del lado del cliente usando Astro, enfocado en islands architecture para sitios de contenido estático. <div>Demo</div> #ui #frontend",Frontend
+Entrenamiento de prompt engineering enfocado en diseño de instrucciones efectivas para LLMs. Ver más en https://python.langchain.com/docs/.,Inteligencia artificial
+Caso práctico de series temporales con Prophet en proyectos de pronóstico de demanda y ventas.,Data Science
+Implementación de Qwik para arquitectura resumable para cargas instantáneas.,Frontend
+Caso práctico de Databricks en proyectos de procesamiento colaborativo de datos en la nube. #analytics,Data Science
+Optimización de hiperparámetros en AutoML para mejorar automatización de la selección de hiperparámetros. Ver más en https://python.langchain.com/docs/.,Inteligencia artificial
+Implementación de Next.js para server-side rendering e incremental static regeneration.,Frontend
+Caso de estudio: VPN y túneles cifrados utilizado para protección de comunicaciones remotas. #cybersecurity #infosec,Ciberseguridad
+Performing statistical analysis on customer churn data using statsmodels and Jupyter Notebooks.,Data Science
+Evaluación de riesgos mediante respuesta a incidentes (Incident Response) orientada a contención y remediación de brechas de seguridad.,Ciberseguridad
+"Limpieza avanzada de datasets inconsistentes manejando duplicados, imputación por vecinos más cercanos (KNN) y escalado de características.",Data Science
+Evaluación de métricas de desempeño de prompt engineering en diseño de instrucciones efectivas para LLMs. #llm,Inteligencia artificial
+Migración de un proyecto legacy hacia Redux Toolkit para mejorar gestión predecible del estado de la aplicación. Ver más en https://react.dev. <p>v2.0</p> #react #ui,Frontend
+Optimización de consultas y rendimiento del servidor usando RabbitMQ para comunicación asíncrona entre microservicios. Ver más en https://expressjs.com/. #microservices,Backend
+Building scalable backend systems with JWT y OAuth2 focused on autenticación y autorización de APIs. Ver más en https://go.dev/doc/. #microservices #server,Backend
+Modelado estadístico con Matplotlib y Seaborn enfocado en visualización estadística de datos. Ver más en https://scikit-learn.org/stable/.,Data Science
+Cómo estructurar componentes escalables usando Next.js en proyectos de server-side rendering e incremental static regeneration.,Frontend
+Desarrollo de agentes inteligentes y algoritmos de aprendizaje por refuerzo (Reinforcement Learning) para resolver entornos complejos de simulación.,Inteligencia artificial
+"Entrenamiento de modelos de Machine Learning (regresión logística, random forest) usando Scikit-Learn para predecir fraude financiero.",Inteligencia artificial
+Implementación de Server-Side Rendering (SSR) y Static Site Generation (SSG) en Next.js para mejorar SEO.,Frontend
+Configuración de Django REST Framework para APIs backend robustas en Python en entornos de producción. #microservices,Backend
+"Optimización del rendimiento del lado del cliente usando Lighthouse, enfocado en auditorías de rendimiento y Core Web Vitals.",Frontend
+Data-driven decision making using A/B testing focused on validación estadística de decisiones de producto. <code>npm install</code> #python,Data Science
+Automatización de reportes con feature engineering para creación de variables predictivas para modelos.,Data Science
+Escalabilidad horizontal de GraphQL en sistemas de consultas flexibles de datos desde el cliente. Ver más en https://fastapi.tiangolo.com/. Contacto: info@aiservices.dev. #backend #api,Backend
+Comparativa técnica de Web Components frente a otras alternativas para encapsulamiento de UI reutilizable entre frameworks. #ui #react,Frontend
+Creación de animaciones web optimizadas utilizando la librería Framer Motion y CSS keyframes en React.,Frontend
+Arquitectura de servicios backend con RabbitMQ aplicada a comunicación asíncrona entre microservicios. #microservices #server,Backend
+Detección temprana de amenazas usando respuesta a incidentes (Incident Response) en contención y remediación de brechas de seguridad. Ver más en https://owasp.org/www-project-top-ten/. #hacking,Ciberseguridad
+Construcción de un pipeline con pandas y NumPy para limpieza y transformación de datos tabulares.,Data Science
+Escalabilidad horizontal de PostgreSQL en sistemas de modelado relacional y optimización de consultas. Contacto: soporte@backend.io.,Backend
+Creación de reportes automáticos y dashboards dinámicos de análisis de datos utilizando Streamlit y Plotly.,Data Science
+Metodología de criptografía asimétrica aplicada a cifrado y firma digital de comunicaciones. Ver más en https://nmap.org/docs.html. <span>beta</span>,Ciberseguridad
+Evaluación de riesgos mediante VPN y túneles cifrados orientada a protección de comunicaciones remotas. Ver más en https://owasp.org/www-project-top-ten/. <div>Demo</div> #infosec #hacking,Ciberseguridad
+Configuración de gRPC para comunicación eficiente entre servicios internos en entornos de producción. #backend #microservices,Backend
+Optimización de hiperparámetros en RAG (Retrieval-Augmented Generation) para mejorar respuestas contextualizadas con bases de conocimiento externas. Ver más en https://huggingface.co/docs. #llm #ml,Inteligencia artificial
+Entrenamiento de aprendizaje por refuerzo (RL) enfocado en toma de decisiones secuenciales en entornos simulados. Ver más en https://python.langchain.com/docs/. #ai #nlp,Inteligencia artificial
+Automatización de reportes con Databricks para procesamiento colaborativo de datos en la nube. Ver más en https://airflow.apache.org/docs/.,Data Science
+"How to build a responsive landing page using raw HTML, CSS Grid, and custom JavaScript animations. See tutorial: https://css-tricks.com/grids/",Frontend
+Evaluación de métricas de desempeño de fine-tuning de LLMs en adaptación de modelos preentrenados a dominios específicos. Ver más en https://huggingface.co/docs.,Inteligencia artificial
+Diseño de políticas de seguridad basadas en autenticación multifactor (MFA) para reducción del riesgo de acceso no autorizado. Ver más en https://nmap.org/docs.html. #infosec,Ciberseguridad
+Implementación de Web Components para encapsulamiento de UI reutilizable entre frameworks. #frontend,Frontend
+Manejo de errores y logging en aplicaciones con Node.js y Express para APIs RESTful escalables. Contacto: info@aiservices.dev.,Backend
+Implementación de SIEM (Security Information and Event Management) para monitoreo centralizado de eventos de seguridad en infraestructuras corporativas.,Ciberseguridad
+Manejo de errores y logging en aplicaciones con gRPC para comunicación eficiente entre servicios internos.,Backend
+Optimización de consultas y rendimiento del servidor usando gRPC para comunicación eficiente entre servicios internos.,Backend
+Implementación de Pinia para manejo de estado global en aplicaciones Vue. Ver más en https://react.dev.,Frontend
+Building AI-powered applications using redes neuronales recurrentes (LSTM/GRU) focused on modelado de secuencias temporales. Ver más en https://pytorch.org/docs/.,Inteligencia artificial
+Arquitectura de servicios backend con gRPC aplicada a comunicación eficiente entre servicios internos. #api #microservices,Backend
+Desarrollo de sistemas de recomendación basados en embeddings y similitud de coseno utilizando bases de datos vectoriales.,Inteligencia artificial
+"Protección de APIs mediante limitación de tasa (rate limiting) y cabeceras de seguridad HTTP (Helmet, CORS).",Ciberseguridad
+Desarrollo de servicios backend utilizando Django REST Framework y base de datos SQLite para entornos de desarrollo.,Backend
+Caso de estudio: uso de redes neuronales recurrentes (LSTM/GRU) en proyectos reales de modelado de secuencias temporales.,Inteligencia artificial
+Caso de estudio: uso de LangChain en proyectos reales de orquestación de agentes con modelos de lenguaje. Ver más en https://pytorch.org/docs/.,Inteligencia artificial
+Configuración de Rust con Actix para sistemas backend con seguridad de memoria en entornos de producción. **importante** #server,Backend
+Evaluación de riesgos mediante análisis de malware orientada a ingeniería inversa de binarios sospechosos. Ver más en https://nmap.org/docs.html. Contacto: security@infosec.com. <code>npm install</code> #cybersecurity #hacking,Ciberseguridad
+"Desarrollo frontend utilizando SvelteKit, integrando componentes dinámicos y consumo de APIs de terceros.",Frontend
+Detección temprana de amenazas usando autenticación multifactor (MFA) en reducción del riesgo de acceso no autorizado.,Ciberseguridad
+Building scalable backend systems with gRPC focused on comunicación eficiente entre servicios internos. #microservices #api,Backend
+Implementación de embeddings vectoriales para tareas de búsqueda semántica en bases de datos vectoriales. #nlp,Inteligencia artificial
+Implementación de redes neuronales recurrentes (LSTM/GRU) para tareas de modelado de secuencias temporales. Ver más en https://python.langchain.com/docs/.,Inteligencia artificial
+Building scalable backend systems with Java Spring Boot focused on arquitecturas de microservicios.,Backend
+Detección temprana de amenazas usando auditorías de seguridad con Nmap y Burp Suite en escaneo de puertos y vulnerabilidades. Ver más en https://nmap.org/docs.html. Contacto: soporte@backend.io.,Ciberseguridad
+Comparativa técnica de Svelte frente a otras alternativas para compilación en build time sin virtual DOM. <code>npm install</code> #webdev #frontend,Frontend
+Implementación de redes neuronales recurrentes (LSTM) para análisis de sentimientos en textos largos de Twitter.,Inteligencia artificial
+Guía práctica sobre Vite aplicado a un bundler rápido con hot module replacement. Ver más en https://vuejs.org.,Frontend
+Implementación de shadcn/ui para componentes accesibles reutilizables sobre Radix UI.,Frontend
+Implementación de análisis forense digital para recolección de evidencia tras un incidente de seguridad en infraestructuras corporativas. Ver más en https://owasp.org/www-project-top-ten/. <p>v2.0</p> #security #infosec,Ciberseguridad
+Configuración de servidores Apache y Nginx para desplegar aplicaciones web seguras con certificados SSL/TLS y redirección HTTPS.,Backend
+Despliegue en producción de Hugging Face Transformers para sistemas de modelos preentrenados de NLP en producción. <code>npm install</code> #deeplearning #nlp,Inteligencia artificial
+Cybersecurity best practices using respuesta a incidentes (Incident Response) focused on contención y remediación de brechas de seguridad. Ver más en https://portswigger.net/burp/documentation.,Ciberseguridad
+Entrenamiento de modelos de difusión (Stable Diffusion) para la generación personalizada de imágenes artísticas.,Inteligencia artificial
+Implementación de modelos generativos de difusión para tareas de generación de imágenes sintéticas. Ver más en https://huggingface.co/docs. <span>beta</span>,Inteligencia artificial
+"Fine-tuning large language models using PyTorch, DeepSpeed, and custom NLP datasets for text generation. Guide: https://pytorch.org/tutorials/",Inteligencia artificial
+Cómo estructurar componentes escalables usando PWA en proyectos de aplicaciones web progresivas con soporte offline.,Frontend
+Visualización interactiva de datos geográficos utilizando librerías como Folium y análisis espacial en Python.,Data Science
+Construcción de un pipeline con A/B testing para validación estadística de decisiones de producto. Contacto: security@infosec.com. #python #analytics,Data Science
+Cybersecurity best practices using VPN y túneles cifrados focused on protección de comunicaciones remotas. <div>Demo</div> #pentesting #cybersecurity,Ciberseguridad
+Data-driven decision making using Apache Spark focused on procesamiento distribuido de grandes volúmenes de datos. Ver más en https://scikit-learn.org/stable/. #analytics,Data Science
+Configuración de Sequelize/Prisma ORM para mapeo objeto-relacional en Node.js en entornos de producción. Ver más en https://docs.docker.com/. #microservices #api,Backend
+Fundamentos teóricos y prácticos de RAG (Retrieval-Augmented Generation) aplicados a respuestas contextualizadas con bases de conocimiento externas. Ver más en https://huggingface.co/docs. #llm #ai,Inteligencia artificial
+Implementación de respuesta a incidentes (Incident Response) para contención y remediación de brechas de seguridad en infraestructuras corporativas. Ver más en https://nmap.org/docs.html. <div>Demo</div>,Ciberseguridad
+Diseño de políticas de seguridad basadas en análisis forense digital para recolección de evidencia tras un incidente de seguridad. **importante** #security #cybersecurity,Ciberseguridad
+Visualización de resultados usando pandas y NumPy aplicada a limpieza y transformación de datos tabulares. Ver más en https://airflow.apache.org/docs/.,Data Science
+Guía de despliegue de gRPC en la nube para comunicación eficiente entre servicios internos.,Backend
+Configuración de NestJS para una arquitectura modular inspirada en Angular en entornos de producción.,Backend
+Optimización de consultas y rendimiento del servidor usando Node.js y Express para APIs RESTful escalables. Ver más en https://spring.io/projects/spring-boot. Contacto: team@datalab.io.,Backend
+Entrenamiento de AutoML enfocado en automatización de la selección de hiperparámetros. #deeplearning,Inteligencia artificial
+Cybersecurity best practices using hardening de servidores Linux focused on reducción de la superficie de ataque. <span>beta</span>,Ciberseguridad
+Fundamentos teóricos y prácticos de redes neuronales convolucionales (CNN) aplicados a visión computacional y detección de objetos. <p>v2.0</p>,Inteligencia artificial
+Ejecución de criptografía asimétrica enfocada en cifrado y firma digital de comunicaciones. #cybersecurity,Ciberseguridad
+Diseño de políticas de seguridad basadas en Zero Trust Architecture para verificación continua de identidad y acceso. #infosec,Ciberseguridad
+Implementación de TensorFlow/Keras para tareas de construcción de arquitecturas de redes neuronales. Ver más en https://www.tensorflow.org/guide. <p>v2.0</p>,Inteligencia artificial
+Procesamiento de grandes volúmenes de datos con Databricks para procesamiento colaborativo de datos en la nube. Contacto: security@infosec.com. **importante** #python #bigdata,Data Science
+Building AI-powered applications using LangChain focused on orquestación de agentes con modelos de lenguaje. **importante** #ai,Inteligencia artificial
+Configuración de Java Spring Boot para arquitecturas de microservicios en entornos de producción. Ver más en https://go.dev/doc/.,Backend
+Guía de despliegue de GraphQL en la nube para consultas flexibles de datos desde el cliente.,Backend
+Análisis de series de tiempo para predicción de stock utilizando modelos ARIMA y Prophet de Facebook.,Data Science
+Manejo de errores y logging en aplicaciones con NestJS para una arquitectura modular inspirada en Angular. #server,Backend
+Caso práctico de pandas y NumPy en proyectos de limpieza y transformación de datos tabulares.,Data Science
+Guía de despliegue de .NET Core en la nube para servicios backend multiplataforma. Contacto: contact@devteam.com.,Backend
+Entrenamiento de MLOps enfocado en despliegue continuo de modelos de machine learning. <span>beta</span> #llm #ml,Inteligencia artificial
+Optimización de hiperparámetros en MLOps para mejorar despliegue continuo de modelos de machine learning.,Inteligencia artificial
+"Optimización del rendimiento del lado del cliente usando Web Components, enfocado en encapsulamiento de UI reutilizable entre frameworks. #css #frontend",Frontend
+"Configuración de bundles optimizados con Vite, esbuild y code-splitting para reducir el peso de carga inicial.",Frontend
+Construcción de un pipeline con SQL avanzado y window functions para análisis de datos en bases relacionales.,Data Science
+Implementación de componentes reutilizables con Vue.js y manejo de estado global a través de Pinia. Visita https://pinia.vuejs.org. #vue #pinia,Frontend
+Caso de estudio: gestión de identidades (IAM) utilizado para control de accesos con privilegios mínimos. Ver más en https://portswigger.net/burp/documentation. #hacking,Ciberseguridad
+Metodología de respuesta a incidentes (Incident Response) aplicada a contención y remediación de brechas de seguridad. Contacto: info@aiservices.dev. <p>v2.0</p>,Ciberseguridad
+"Securing cloud infrastructure on AWS and OCI by configuring security groups, IAM policies, and VPCs.",Ciberseguridad
+Implementación de criptografía asimétrica para cifrado y firma digital de comunicaciones en infraestructuras corporativas. Ver más en https://nmap.org/docs.html.,Ciberseguridad
+Buenas prácticas al trabajar con Lighthouse en auditorías de rendimiento y Core Web Vitals. Ver más en https://angular.dev/docs.,Frontend
+Guía de despliegue de Django REST Framework en la nube para APIs backend robustas en Python. Contacto: soporte@backend.io.,Backend
+"Developing enterprise backend microservices with C# .NET Core, Docker containers, and SQL Server.",Backend
+Optimización de hiperparámetros en PyTorch para mejorar entrenamiento de modelos de deep learning. Ver más en https://huggingface.co/docs.,Inteligencia artificial
+Implementación de OWASP Top 10 para mitigación de vulnerabilidades críticas como SQL injection y XSS en infraestructuras corporativas. <span>beta</span>,Ciberseguridad
+"Modelado estadístico con pipelines ETL enfocado en extracción, transformación y carga de datos. #bigdata",Data Science
+Implementación de Lighthouse para auditorías de rendimiento y Core Web Vitals. #webdev #react,Frontend
+Construcción de un pipeline con Apache Spark para procesamiento distribuido de grandes volúmenes de datos.,Data Science
+Metodología de firewalls de nueva generación (NGFW) aplicada a protección perimetral de redes corporativas. Ver más en https://portswigger.net/burp/documentation.,Ciberseguridad
+"Maquetación responsiva usando Web Components nativos, Shadow DOM y custom elements en vanilla JavaScript.",Frontend
+Caso práctico de análisis exploratorio de datos (EDA) en proyectos de identificación de patrones y outliers. <p>v2.0</p>,Data Science
+Fundamentos teóricos y prácticos de fine-tuning de LLMs aplicados a adaptación de modelos preentrenados a dominios específicos. #llm,Inteligencia artificial
+Building scalable backend systems with Nginx focused on balanceo de carga y proxy inverso. <div>Demo</div> #backend,Backend
+Uso de redes generativas adversarias (GANs) para la creación y síntesis de imágenes realistas. Código disponible en git+https://github.com/gan-samples.,Inteligencia artificial
+Evaluación de métricas de desempeño de MLOps en despliegue continuo de modelos de machine learning. Ver más en https://python.langchain.com/docs/. <div>Demo</div>,Inteligencia artificial
+Guía práctica sobre Next.js aplicado a server-side rendering e incremental static regeneration. Ver más en https://react.dev. Contacto: info@aiservices.dev. #react,Frontend
+Visualización de resultados usando feature engineering aplicada a creación de variables predictivas para modelos. Ver más en https://pandas.pydata.org/docs/. #python,Data Science
+Building AI-powered applications using RAG (Retrieval-Augmented Generation) focused on respuestas contextualizadas con bases de conocimiento externas. Contacto: team@datalab.io. <code>npm install</code>,Inteligencia artificial
+Guía de despliegue de Nginx en la nube para balanceo de carga y proxy inverso.,Backend
+Implementación de AutoML para tareas de automatización de la selección de hiperparámetros.,Inteligencia artificial
+Evaluación de riesgos mediante auditorías de seguridad con Nmap y Burp Suite orientada a escaneo de puertos y vulnerabilidades. Contacto: contact@devteam.com. #cybersecurity,Ciberseguridad
+"Optimización del rendimiento del lado del cliente usando Angular 18, enfocado en arquitecturas basadas en signals y standalone components.",Frontend
+Fundamentos teóricos y prácticos de AutoML aplicados a automatización de la selección de hiperparámetros. <span>beta</span>,Inteligencia artificial
+Caso de estudio: análisis de malware utilizado para ingeniería inversa de binarios sospechosos. Contacto: team@datalab.io.,Ciberseguridad
+Caso de estudio: uso de Hugging Face Transformers en proyectos reales de modelos preentrenados de NLP en producción. Ver más en https://pytorch.org/docs/. #deeplearning #nlp,Inteligencia artificial
+Optimización de consultas y rendimiento del servidor usando Go (Golang) para servicios concurrentes de baja latencia.,Backend
+Implementación de accesibilidad web (WAI-ARIA) y navegación por teclado en un formulario complejo de React.,Frontend
+Procesamiento de grandes volúmenes de datos con SQL avanzado y window functions para análisis de datos en bases relacionales. <p>v2.0</p> #datascience #etl,Data Science
+"Desarrollo de interfaces de usuario utilizando Next.js, React Server Components y Tailwind CSS para diseño fluido.",Frontend
+Ejecución de SIEM (Security Information and Event Management) enfocada en monitoreo centralizado de eventos de seguridad.,Ciberseguridad
+Diseño e implementación de JWT y OAuth2 orientado a autenticación y autorización de APIs. <span>beta</span> #devops #server,Backend
+Cybersecurity best practices using Zero Trust Architecture focused on verificación continua de identidad y acceso. #cybersecurity,Ciberseguridad
+Configuración de Go (Golang) para servicios concurrentes de baja latencia en entornos de producción. <div>Demo</div> #api #backend,Backend
+Cybersecurity best practices using firewalls de nueva generación (NGFW) focused on protección perimetral de redes corporativas.,Ciberseguridad
+Guía de despliegue de Apache Kafka en la nube para streaming de eventos en tiempo real. **importante**,Backend
+Manejo de errores y logging en aplicaciones con RabbitMQ para comunicación asíncrona entre microservicios. #devops #backend,Backend
+Implementación de caché distribuido utilizando Redis en un cluster de microservicios de Spring Boot.,Backend
+Escaneo automatizado de puertos y detección de servicios activos con Nmap y análisis de vulnerabilidades Nessus.,Ciberseguridad
+Construcción de un pipeline con feature engineering para creación de variables predictivas para modelos.,Data Science
+Manejo de errores y logging en aplicaciones con Docker y Kubernetes para orquestación de contenedores en producción. <code>npm install</code> #microservices,Backend
+Entrenamiento de visión por computadora con YOLO enfocado en detección de objetos en tiempo real. Ver más en https://python.langchain.com/docs/. Contacto: contact@devteam.com. #deeplearning #ai,Inteligencia artificial
+"Mitigación de vulnerabilidades web comunes listadas en el OWASP Top 10, como Inyección SQL (SQLi) y Cross-Site Scripting (XSS) o inyección de código. 🚨",Ciberseguridad
+Fundamentos teóricos y prácticos de PyTorch aplicados a entrenamiento de modelos de deep learning.,Inteligencia artificial
+Evaluación de riesgos mediante gestión de identidades (IAM) orientada a control de accesos con privilegios mínimos. Ver más en https://portswigger.net/burp/documentation. Contacto: info@aiservices.dev. <div>Demo</div>,Ciberseguridad
+Escalabilidad horizontal de JWT y OAuth2 en sistemas de autenticación y autorización de APIs. Ver más en https://docs.docker.com/.,Backend
+Building AI-powered applications using embeddings vectoriales focused on búsqueda semántica en bases de datos vectoriales. <code>npm install</code>,Inteligencia artificial
+Caso de estudio: hardening de servidores Linux utilizado para reducción de la superficie de ataque.,Ciberseguridad
+Escalabilidad horizontal de Nginx en sistemas de balanceo de carga y proxy inverso. Contacto: contact@devteam.com. #api,Backend
+Análisis de análisis exploratorio de datos (EDA) orientado a identificación de patrones y outliers.,Data Science
+Optimización de hiperparámetros en modelos generativos de difusión para mejorar generación de imágenes sintéticas. Ver más en https://www.tensorflow.org/guide.,Inteligencia artificial
+Visualización de resultados usando modelos de regresión y clasificación con scikit-learn aplicada a predicción sobre datos estructurados. Contacto: soporte@backend.io. #python,Data Science
+"Procesamiento de grandes volúmenes de datos con pipelines ETL para extracción, transformación y carga de datos. Ver más en https://spark.apache.org/docs/. **importante**",Data Science
+Caso de estudio: uso de embeddings vectoriales en proyectos reales de búsqueda semántica en bases de datos vectoriales. Ver más en https://python.langchain.com/docs/. Contacto: info@aiservices.dev. #nlp #llm,Inteligencia artificial
+Evaluación de métricas de desempeño de visión por computadora con YOLO en detección de objetos en tiempo real. #deeplearning,Inteligencia artificial
+Guía práctica sobre shadcn/ui aplicado a componentes accesibles reutilizables sobre Radix UI. Ver más en https://svelte.dev/docs.,Frontend
+Cómo estructurar componentes escalables usando Vue.js 3 en proyectos de la Composition API y el manejo reactivo de estado. #frontend #react,Frontend
+"Building modern user interfaces with Vite, focused on un bundler rápido con hot module replacement.",Frontend
+"Construcción de un pipeline con pipelines ETL para extracción, transformación y carga de datos.",Data Science
+Implementación de SvelteKit para renderizado híbrido SSR/SSG para mejorar el SEO. #react #css,Frontend
+Visualización de resultados usando A/B testing aplicada a validación estadística de decisiones de producto. Ver más en https://spark.apache.org/docs/.,Data Science
+Migración de un proyecto legacy hacia Tailwind CSS para mejorar un sistema de diseño utility-first responsivo. Ver más en https://angular.dev/docs.,Frontend
+Implementación de VPN y túneles cifrados para protección de comunicaciones remotas en infraestructuras corporativas.,Ciberseguridad
+Análisis de feature engineering orientado a creación de variables predictivas para modelos.,Data Science
+Optimización de consultas y rendimiento del servidor usando Django REST Framework para APIs backend robustas en Python.,Backend
+Evaluación de riesgos mediante SIEM (Security Information and Event Management) orientada a monitoreo centralizado de eventos de seguridad. Ver más en https://owasp.org/www-project-top-ten/. **importante**,Ciberseguridad
+"Optimización del rendimiento del lado del cliente usando Svelte, enfocado en compilación en build time sin virtual DOM. Contacto: info@aiservices.dev.",Frontend
+Detección temprana de amenazas usando Zero Trust Architecture en verificación continua de identidad y acceso.,Ciberseguridad
+Auditoría de seguridad y pruebas de penetración (pentesting) en redes corporativas usando Kali Linux y Metasploit. Alertas enviadas a security@company.com.,Ciberseguridad
+Optimización de consultas y rendimiento del servidor usando Rust con Actix para sistemas backend con seguridad de memoria.,Backend
+Análisis de tráfico de red capturado en formato PCAP utilizando Wireshark para detectar intrusiones o malware.,Ciberseguridad
+Guía práctica sobre Redux Toolkit aplicado a gestión predecible del estado de la aplicación. Ver más en https://angular.dev/docs. **importante**,Frontend
+Entrenamiento de modelos Transformer enfocado en procesamiento de lenguaje natural a gran escala. Ver más en https://python.langchain.com/docs/. Contacto: team@datalab.io. #deeplearning,Inteligencia artificial
+Procesamiento de grandes volúmenes de datos con BigQuery para análisis de datos a gran escala en la nube de Google. Contacto: team@datalab.io. <code>npm install</code> #etl,Data Science
+Diseño de políticas de seguridad basadas en gestión de identidades (IAM) para control de accesos con privilegios mínimos.,Ciberseguridad
+Cómo estructurar componentes escalables usando Pinia en proyectos de manejo de estado global en aplicaciones Vue. <span>beta</span>,Frontend
