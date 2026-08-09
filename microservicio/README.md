@@ -33,7 +33,23 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-6. Levantar el servidor
+6. Configurar variables de entorno
+
+El microservicio descarga el modelo desde OCI Object Storage al arrancar. Creá un archivo `.env` en la raíz de `microservicio/` con estas variables:
+
+```
+OCI_USER=
+OCI_FINGERPRINT=
+OCI_TENANCY=
+OCI_REGION=
+OCI_NAMESPACE=
+OCI_BUCKET_NAME=
+OCI_KEY_CONTENT=
+```
+
+No compartir estas credenciales fuera del equipo ni subir el `.env` a Git (ya está en `.gitignore`).
+
+7. Levantar el servidor
 ```
 uvicorn app.main:app --reload
 ```
@@ -59,7 +75,7 @@ curl -X POST http://127.0.0.1:8000/predecir -H "Content-Type: application/json" 
 
 Respuesta:
 ```json
-{"categoria":"Backend","probabilidad":0.44,"informaciones_adicionales":["boot","spring","rest"]}
+{"categoria":"Backend","probabilidad":0.87,"informaciones_adicionales":["spring boot","spring","boot"]}
 ```
 
 ### 2. Clasificación Frontend
@@ -70,7 +86,7 @@ curl -X POST http://127.0.0.1:8000/predecir -H "Content-Type: application/json" 
 
 Respuesta:
 ```json
-{"categoria":"Frontend","probabilidad":0.4,"informaciones_adicionales":["javascript","web","usando"]}
+{"categoria":"Frontend","probabilidad":0.67,"informaciones_adicionales":["web","usando"]}
 ```
 
 ### 3. Texto inválido (muy corto)
