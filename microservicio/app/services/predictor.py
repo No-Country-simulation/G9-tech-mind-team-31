@@ -1,8 +1,13 @@
 import os
 import joblib
 from app.schemas import ContenidoEntrada, ContenidoSalida
+from app.services.storage import OCIStorageClient
 
 MODELS_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "models")
+
+cliente_storage = OCIStorageClient()
+cliente_storage.descargar_archivo("model.joblib", os.path.join(MODELS_DIR, "model.joblib"))
+cliente_storage.descargar_archivo("vectorizer.joblib", os.path.join(MODELS_DIR, "vectorizer.joblib"))
 
 model = joblib.load(os.path.join(MODELS_DIR, "model.joblib"))
 vectorizer = joblib.load(os.path.join(MODELS_DIR, "vectorizer.joblib"))
