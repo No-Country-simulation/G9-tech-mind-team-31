@@ -3,8 +3,11 @@ import { ContentForm } from "../components/ContentForm";
 import { AnalysisResult } from "../components/AnalysisResult";
 import { JsonResponseViewer } from "../components/JsonResponseViewer";
 import { ServiceStatus } from "../components/ServiceStatus";
+import { CategoriaStatsPanel } from "../components/CategoriaStatsPanel";
+import { MetricasPanel } from "../components/MetricasPanel";
+import { useCategoriaStats } from "../hooks/useCategoriaStats";
 import { apiBaseUrl } from "../api/client";
-import type { AnalisisResultado, ContenidoInput, ServicioInfo } from "../types";
+import type { AnalisisResultado, AnalisisRegistro, ContenidoInput, ServicioInfo } from "../types";
 
 interface DashboardProps {
   resultado: AnalisisResultado | null;
@@ -12,18 +15,21 @@ interface DashboardProps {
   error: string | null;
   onSubmit: (input: ContenidoInput) => void;
   backendActivo: boolean | null;
+  historial: AnalisisRegistro[];
 }
 
-export function Dashboard({ resultado, loading, error, onSubmit, backendActivo }: DashboardProps) {
+export function Dashboard({ resultado, loading, error, onSubmit, backendActivo, historial }: DashboardProps) {
+  const stats = useCategoriaStats(historial);
+
   const servicios: (ServicioInfo & { icono: "cloud" | "api" })[] = [
     {
-      nombre: "Backend API",
+       nombre: "Servicio ML",
       detalle:
         backendActivo === null
           ? "Verificando conexión..."
           : backendActivo
-            ? `Conectado (${apiBaseUrl || "proxy /contenido"})`
-            : "No se pudo contactar el backend",
+            ? `Conectado (${apiBaseUrl || "proxy /predecir"})`
+            : "No se pudo contactar el servicio",
       estado: backendActivo === null ? "inactivo" : backendActivo ? "conectado" : "error",
       icono: "api",
     },
@@ -47,6 +53,11 @@ export function Dashboard({ resultado, loading, error, onSubmit, backendActivo }
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 items-start">
         <ContentForm onSubmit={onSubmit} loading={loading} />
         <AnalysisResult resultado={resultado} />
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+        <CategoriaStatsPanel conteos={stats.conteos} otras={stats.otras} />
+        <MetricasPanel stats={stats} historial={historial} />
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">

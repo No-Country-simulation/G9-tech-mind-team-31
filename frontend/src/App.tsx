@@ -44,6 +44,7 @@ function App() {
                 error={error}
                 onSubmit={procesar}
                 backendActivo={backendActivo}
+                historial={historial}
               />
             }
           />
