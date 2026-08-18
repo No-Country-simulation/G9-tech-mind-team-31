@@ -42,6 +42,7 @@ function App() {
                 error={error}
                 backendActivo={backendActivo}
                 historial={historial}
+                limpiarHistorial={limpiarHistorial}
               />
             }
           />

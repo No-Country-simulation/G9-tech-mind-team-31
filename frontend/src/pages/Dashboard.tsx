@@ -3,6 +3,7 @@ import { JsonResponseViewer } from "../components/JsonResponseViewer";
 import { ServiceStatus } from "../components/ServiceStatus";
 import { CategoriaStatsPanel } from "../components/CategoriaStatsPanel";
 import { MetricasPanel } from "../components/MetricasPanel";
+import { HistorialProcesos } from "../components/HistorialProcesos";
 import { useCategoriaStats } from "../hooks/useCategoriaStats";
 import { apiBaseUrl } from "../api/client";
 import type { AnalisisRegistro, ServicioInfo } from "../types";
@@ -20,9 +21,10 @@ interface DashboardProps {
   error: string | null;
   backendActivo: boolean | null;
   historial: AnalisisRegistro[];
+  limpiarHistorial: () => void;
 }
 
-export function Dashboard({ error, backendActivo, historial }: DashboardProps) {
+export function Dashboard({ error, backendActivo, historial, limpiarHistorial }: DashboardProps) {
   const stats = useCategoriaStats(historial);
 
   const servicios: (ServicioInfo & { icono: "cloud" | "api" })[] = [
@@ -65,6 +67,11 @@ export function Dashboard({ error, backendActivo, historial }: DashboardProps) {
         </div>
         <ServiceStatus servicios={servicios} />
       </div>
+
+      <HistorialProcesos
+        historial={historial}
+        onClearHistorial={limpiarHistorial}
+      />
 
       <div className="flex items-center gap-2 rounded-xl bg-(--color-brand-50) text-(--color-brand-600) px-4 py-3 text-sm">
         <Info size={16} className="shrink-0" />
