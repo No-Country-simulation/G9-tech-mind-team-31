@@ -2,17 +2,13 @@ import { AlertCircle, Info } from "lucide-react";
 import { AnalysisResult } from "../components/AnalysisResult";
 import { ContentForm } from "../components/ContentForm";
 import { JsonResponseViewer } from "../components/JsonResponseViewer";
-import { HistorialProcesos } from "../components/HistorialProcesos";
-import type { AnalisisRegistro, AnalisisResultado, ContenidoInput } from "../types";
+import type { AnalisisResultado, ContenidoInput } from "../types";
 
 interface ProcesarContenidoProps {
   resultado: AnalisisResultado | null;
   loading: boolean;
   error: string | null;
   onSubmit: (input: ContenidoInput) => void;
-  historial: AnalisisRegistro[];
-  onSelectRegistro: (registro: AnalisisRegistro) => void;
-  onClearHistorial: () => void;
 }
 
 export function ProcesarContenido({
@@ -20,9 +16,6 @@ export function ProcesarContenido({
   loading,
   error,
   onSubmit,
-  historial,
-  onSelectRegistro,
-  onClearHistorial,
 }: ProcesarContenidoProps) {
   return (
     <main className="p-6 space-y-6">
@@ -46,12 +39,6 @@ export function ProcesarContenido({
       </div>
 
       <JsonResponseViewer resultado={resultado} />
-
-      <HistorialProcesos
-        historial={historial}
-        onSelectRegistro={onSelectRegistro}
-        onClearHistorial={onClearHistorial}
-      />
 
       <div className="flex items-center gap-2 rounded-xl bg-(--color-brand-50) px-4 py-3 text-sm text-(--color-brand-600)">
         <Info size={16} className="shrink-0" />

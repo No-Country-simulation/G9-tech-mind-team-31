@@ -13,7 +13,6 @@ function App() {
     error,
     historial,
     procesar,
-    seleccionarRegistro,
     limpiarHistorial,
   } = useContentAnalysis();
   const backendActivo = useBackendStatus();
@@ -49,14 +48,11 @@ function App() {
           <Route
             path="/procesar"
             element={
-              <ProcesarContenido
+               <ProcesarContenido
                 resultado={resultado}
                 loading={loading}
                 error={error}
                 onSubmit={procesar}
-                historial={historial}
-                onSelectRegistro={seleccionarRegistro}
-                onClearHistorial={limpiarHistorial}
               />
             }
           />
