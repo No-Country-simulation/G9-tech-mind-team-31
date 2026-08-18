@@ -39,7 +39,6 @@ function App() {
             path="/"
             element={
               <Dashboard
-                resultado={resultado}
                 error={error}
                 backendActivo={backendActivo}
                 historial={historial}

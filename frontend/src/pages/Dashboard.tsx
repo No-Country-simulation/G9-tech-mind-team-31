@@ -5,16 +5,24 @@ import { CategoriaStatsPanel } from "../components/CategoriaStatsPanel";
 import { MetricasPanel } from "../components/MetricasPanel";
 import { useCategoriaStats } from "../hooks/useCategoriaStats";
 import { apiBaseUrl } from "../api/client";
-import type { AnalisisResultado, AnalisisRegistro, ServicioInfo } from "../types";
+import type { AnalisisRegistro, ServicioInfo } from "../types";
+
+// Ejemplo estático de referencia del formato de respuesta del modelo.
+// NO es un resultado real — ilustra la estructura JSON que devuelve
+// POST /predecir (categoria, probabilidad, informaciones_adicionales).
+const EJEMPLO_RESPUESTA_JSON = {
+  categoria: "Backend",
+  probabilidad: 0.87,
+  informaciones_adicionales: ["spring boot", "spring", "boot"],
+};
 
 interface DashboardProps {
-  resultado: AnalisisResultado | null;
   error: string | null;
   backendActivo: boolean | null;
   historial: AnalisisRegistro[];
 }
 
-export function Dashboard({ resultado, error, backendActivo, historial }: DashboardProps) {
+export function Dashboard({ error, backendActivo, historial }: DashboardProps) {
   const stats = useCategoriaStats(historial);
 
   const servicios: (ServicioInfo & { icono: "cloud" | "api" })[] = [
@@ -53,7 +61,7 @@ export function Dashboard({ resultado, error, backendActivo, historial }: Dashbo
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
         <div className="lg:col-span-2">
-          <JsonResponseViewer resultado={resultado} />
+          <JsonResponseViewer resultado={EJEMPLO_RESPUESTA_JSON} />
         </div>
         <ServiceStatus servicios={servicios} />
       </div>
