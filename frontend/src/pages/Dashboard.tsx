@@ -28,8 +28,8 @@ export function Dashboard({ resultado, loading, error, onSubmit, backendActivo, 
         backendActivo === null
           ? "Verificando conexión..."
           : backendActivo
-            ? `Conectado (${apiBaseUrl || "proxy /predecir"})`
-            : "No se pudo contactar el servicio",
+            ? `Servicio activo (${apiBaseUrl || "proxy /predecir"})`
+            : "Servicio sin conexión",
       estado: backendActivo === null ? "inactivo" : backendActivo ? "conectado" : "error",
       icono: "api",
     },
