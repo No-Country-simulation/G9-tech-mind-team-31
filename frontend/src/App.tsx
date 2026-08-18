@@ -40,9 +40,7 @@ function App() {
             element={
               <Dashboard
                 resultado={resultado}
-                loading={loading}
                 error={error}
-                onSubmit={procesar}
                 backendActivo={backendActivo}
                 historial={historial}
               />

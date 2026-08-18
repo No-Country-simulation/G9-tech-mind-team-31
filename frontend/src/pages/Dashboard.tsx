@@ -1,24 +1,20 @@
 import { AlertCircle, Info } from "lucide-react";
-import { ContentForm } from "../components/ContentForm";
-import { AnalysisResult } from "../components/AnalysisResult";
 import { JsonResponseViewer } from "../components/JsonResponseViewer";
 import { ServiceStatus } from "../components/ServiceStatus";
 import { CategoriaStatsPanel } from "../components/CategoriaStatsPanel";
 import { MetricasPanel } from "../components/MetricasPanel";
 import { useCategoriaStats } from "../hooks/useCategoriaStats";
 import { apiBaseUrl } from "../api/client";
-import type { AnalisisResultado, AnalisisRegistro, ContenidoInput, ServicioInfo } from "../types";
+import type { AnalisisResultado, AnalisisRegistro, ServicioInfo } from "../types";
 
 interface DashboardProps {
   resultado: AnalisisResultado | null;
-  loading: boolean;
   error: string | null;
-  onSubmit: (input: ContenidoInput) => void;
   backendActivo: boolean | null;
   historial: AnalisisRegistro[];
 }
 
-export function Dashboard({ resultado, loading, error, onSubmit, backendActivo, historial }: DashboardProps) {
+export function Dashboard({ resultado, error, backendActivo, historial }: DashboardProps) {
   const stats = useCategoriaStats(historial);
 
   const servicios: (ServicioInfo & { icono: "cloud" | "api" })[] = [
@@ -49,11 +45,6 @@ export function Dashboard({ resultado, loading, error, onSubmit, backendActivo, 
           <p>{error}</p>
         </div>
       )}
-
-      <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 items-start">
-        <ContentForm onSubmit={onSubmit} loading={loading} />
-        <AnalysisResult resultado={resultado} />
-      </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
         <CategoriaStatsPanel conteos={stats.conteos} otras={stats.otras} />
