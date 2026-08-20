@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test Spring → FastAPI</title>
+  <style>
+    body { font-family: Arial; margin: 40px; }
+    textarea { width: 100%; height: 100px; }
+    button { padding: 10px 20px; }
+    pre { background: #f0f0f0; padding: 10px; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <h1>Test Spring → FastAPI Integration</h1>
+  <div>
+    <h2>Enviar contenido para clasificar:</h2>
+    <label>Título:</label><br>
+    <input type="text" id="titulo" value="Learning React" style="width: 100%"><br><br>
+    
+    <label>Texto:</label><br>
+    <textarea id="texto">React es un framework JavaScript para construir interfaces de usuario con componentes reutilizables. Utiliza hooks como useState y useEffect para gestionar estado.</textarea><br><br>
+    
+    <button onclick="testAPI()">Enviar</button>
+    <button onclick="clearResults()">Limpiar</button>
+  </div>
+  
+  <h2>Respuesta:</h2>
+  <pre id="response">Esperando respuesta...</pre>
+  
+  <script>
+    function testAPI() {
+      const titulo = document.getElementById('titulo').value;
+      const texto = document.getElementById('texto').value;
+      
+      document.getElementById('response').textContent = 'Enviando solicitud...';
+      
+      fetch('http://127.0.0.1:8080/contenido', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ titulo, texto })
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        document.getElementById('response').textContent = JSON.stringify(data, null, 2);
+      })
+      .catch(error => {
+        document.getElementById('response').textContent = 'Error: ' + error.message;
+      });
+    }
+    
+    function clearResults() {
+      document.getElementById('response').textContent = 'Esperando respuesta...';
+    }
+  </script>
+</body>
+</html>

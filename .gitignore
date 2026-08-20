@@ -1,0 +1,26 @@
+# Python
+microservicio/venv/
+microservicio/__pycache__/
+microservicio/**/*.pyc
+microservicio/.env
+microservicio/models/
+.venv/
+__pycache__/
+*.pyc
+
+# Java / Maven
+**/target/
+
+# Node / frontend
+**/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local tools and IDE files
+.idea/
+.vscode/
+*.iml
+
+# Local logs and generated validation output
+*.log
+validation/
